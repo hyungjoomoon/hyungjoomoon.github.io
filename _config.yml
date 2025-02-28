@@ -1,12 +1,12 @@
 # Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
+title:          Hyung-Joo Moon
+description:    Hello
+url:            https://hyungjoomoon.github.io
 
 # Author
 author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
+  name:         Hyung-Joo Moon
+  email:        moonhj@yonsei.ac.kr
   url:          https://inelaah.com
 
 # Build settings
