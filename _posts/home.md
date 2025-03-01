@@ -1,41 +1,8 @@
 ---
-layout: default
+layout: home
 ---
 
 # Welcome to My Website
 
 This is my personal blog where I share insights, tutorials, and more. Enjoy browsing through my latest posts!
 
-<div class="catalogue">
-  {% for post in paginator.posts %}
-    <a href="{{ post.url | prepend: site.baseurl }}" class="catalogue-item">
-      <div>
-        <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-        <h1 class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
-        <p>
-          {{ post.content | strip_html | truncatewords: 65 }}
-        </p>
-      </div>
-    </a>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  <div class="flex-container">
-    <div>
-      {% if paginator.previous_page %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">
-          <i class="fas fa-angle-left"></i>&nbsp;Newer
-        </a>
-      {% endif %}
-    </div>
-    <div>
-      {% if paginator.next_page %}
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">
-          Older&nbsp;<i class="fas fa-angle-right"></i>
-        </a>
-      {% endif %}
-    </div>
-  </div>
-</div>
