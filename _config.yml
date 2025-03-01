@@ -1,39 +1,53 @@
-# Site settings
-title:          Hyung-Joo Moon
-description:    Hello
-url:            https://hyungjoomoon.github.io
+title: Pudhina Fresh # Shown in header on pages with full_logo: true
+short_logo: PF. # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
+  A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+url: "https://ritijjain.github.io/pudhina-fresh" # Site base URL
 
-# Author
 author:
-  name:         Hyung-Joo Moon
-  email:        moonhj@yonsei.ac.kr
-  url:          https://hyungjoomoon.github.io
+  name: Ritij Jain
+  github: ritijjain/pudhina-fresh # GitHub username, used for GitHub icon on the top right
+  linkedin: ritijjain # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  email: example@example.com # Used for email icon on the top right
+  homepage: https://ritijjain.com # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics 
 
-# Build settings
-markdown:       kramdown
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
 
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
+markdown: kramdown
 
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
+defaults: # Recommended defaults, you may set your own
+  -
+    scope:
+      path: _posts
+    values:
+      comments: true
+  -
+    scope:
+      path: pages/redirects
+    values:
+      layout: redirect
+      index: false
+      listed: false
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      sitemap:
+        priority: 0.4
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
 
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
-
-# Links to social media
-social:
-  email: moonhj@yonsei.ac.kr
-  google_scholar: "https://scholar.google.com/citations?user=bd66RuQAAAAJ&hl=ko"
-  linkedin: https://www.linkedin.com/in/hyung-joo-moon-304b42303/
+rss: false # RSS feed icon on or off
+dark_mode: true # Dark mode icon
+project_card_style: modal # Choose from masonry, modal, and flat

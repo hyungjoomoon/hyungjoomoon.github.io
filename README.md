@@ -1,133 +1,52 @@
-# Rain
+# Pudhina Fresh
+A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
 
-Rain is a simple and clean Jekyll theme with focus on content. It's a fork of [Tale theme](https://github.com/chesterhow/tale) with additional customizations.
+Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhina-fresh), [ritijjain.com](https://ritijjain.com/)
 
-![](https://github.com/inelaah/rain/blob/master/images/screenshot.png)
+* Minimal design based on Bootstrap 4.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* Dark mode (powered by darkmode.js)
+* 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
+
+![Demo image 1](/assets/img/dis1.png)
+![Demo image 2](/assets/img/dis2.png)
+![Demo image 3](/assets/img/dis3.png)
+![Demo image 4](/assets/img/dis4.png)
+![Demo image 5](/assets/img/dis5.png)
 
 ## Features
-- Compatible with GitHub Pages
-- Responsive design
-- Syntax highlighting
-- Markdown and HTML text formatting
-- Pagination of posts
-- Related articles section
-- Links to social media
+### Everything From [Pudhina](https://github.com/knhash/Pudhina)
+* Simple, minimal and clean
+* Blog posts categorized (Pudhina Fresh uses tags instead)
+* Responsive
+* Syntax Highlighter (using highlight.js).
+* Font-Awesome Icons.
+* Glitchy 404 page
 
+### Plus Much More
+* Minimal design based on Bootstrap 4.
+* Support for Bootstrap elements and bootstrap compatible styles.
+* Responsive mobile friendly design.
+* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
+* Categorize posts and projects using tags and view them on tag pages.
+* Customizable post meta data for individual posts – tags, published date, updated date, author, author link.
+* Create redirect pages using the `_layouts/redirect` template.
+* Support for Disqus comments and Google Analytics.
+* Redesigned table, heading, subheading, link, quote, and text styles.
+* Dark mode (powered by darkmode.js)
+* Just as fast as the original – 95+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop).
 
-## Getting Started
+## Docs
+Read the [docs post](https://ritijjain.github.io/pudhina-fresh/2020/07/01/docs.html).
 
-You will need to install Jekyll on your machine. Installation depends on your operating system and it is explained [here](https://jekyllrb.com/docs/installation/).
+Feel free to open a new issue for questions and comments.
 
-Then create a new directory and clone this repository:
+## Credits and License
+Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina) by [Shashank S](https://github.com/knhash).
 
-```bash
-mkdir rain
-cd rain
-git clone https://github.com/inelaah/rain.git
-```
+[MIT License](https://github.com/ritijjain/pudhina-fresh/blob/master/LICENSE)
 
-Install all dependencies:
+## Stargazers Over Time
 
-```bash
-bundle install
-```
-
-## Site Configuration
-
-There is a configuration file `_config.yml` in root directory. You should overwrite it to fit to your needs.
-
-An example of `_config.yml` looks like this:
-
-```bash
-# Site settings
-title:          Rain
-description:    "Rain is a simple and clean Jekyll theme with focus on content."
-url:            https://github.com/inelaah/rain
-
-# Author
-author:
-  name:         Inela Avdic Hukic
-  email:        inelaah@gmail.com
-  url:          https://inelaah.com
-
-# Build settings
-markdown:       kramdown
-
-# Assets
-sass:
-  sass_dir:     _sass
-  style:        compressed
-
-# Gems
-plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  # - jemoji #Uncomment this to allow emoji in your post
-
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
-
-# Related posts settings
-related_posts_section:
-  max_count:        5
-  min_common_tags:  2
-
-# Links to social media
-social:
-  email: inelaah@gmail.com
-  github: https://github.com/inelaah
-  twitter: https://twitter.com
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
-```
-
-## Favicons
-
-It is recommended to put your own favicons:
-
-- `apple-touch-icon.png` (180x180)
-- `favicon-32x32.png` (32x32)
-- `favicon-16x16.png` (16x16)
-- `mstile-150x150.png` (150x150)
-- `android-chrome-192x192.png` (192x192)
-- `android-chrome-512x512.png` (512x512)
-
-in `/assets` directory. They're easily created via [Favicon Generator](https://realfavicongenerator.net/).
-
-
-## Related Articles
-
-Related articles section is based on article tags. For every post that you want to have this section you should define tags.
-To include related articles in the bottom of the content you should define `related_posts_section` property in configuration file.
-It contains two fields: `max_count` and `min_common_tags`:
-- `max_count` represents the maximum number of related articles shown on a single article.
-- `min_common_tags` represents the minimum number of common tags for two articles to become related articles.
-
-## Links to social media
-
-To include links to social media in the top right corner of your page you need to define `social` property.
-It contains email, GitHub, Twitter and LinkedIn fields. You can leave out any of these if you don't want them to show up on your page.
-
-## Customizing Rain theme
-
-If you want to customize Rain theme you can fork this project and make some changes. If you just want to change the style then you can find Sass files in `_sass/rain` directory.
-
-## Adding your own posts
-
-You can see an example of post structure in `_posts` directory. After you clone this project you should clean the `_posts` directory and add your own posts.
-
-## Build and serve
-
-```
-bundle exec jekyll serve
-```
-
-Head over to http://127.0.0.1:4000/ to see your page.
-
-## License
-
-Rain is licensed under the MIT license. Check the [LICENSE](LICENSE.md) file for details.
-
-## Author
-
-[Inela Avdic Hukic](https://github.com/inelaah)
+[![Stargazers over time](https://starchart.cc/ritijjain/pudhina-fresh.svg)](https://starchart.cc/ritijjain/pudhina-fresh)
