@@ -7,7 +7,7 @@ url:            https://hyungjoomoon.github.io
 author:
   name:         Hyung-Joo Moon
   email:        moonhj@yonsei.ac.kr
-  url:          https://inelaah.com
+  url:          https://hyungjoomoon.github.io
 
 # Build settings
 markdown:       kramdown
@@ -36,4 +36,4 @@ related_posts_section:
 social:
   email: moonhj@yonsei.ac.kr
   google_scholar: "https://scholar.google.com/citations?user=bd66RuQAAAAJ&hl=ko"
-  linkedin: https://ba.linkedin.com/in/inela-avdic-hukic-322354131
+  linkedin: https://www.linkedin.com/in/hyung-joo-moon-304b42303/
