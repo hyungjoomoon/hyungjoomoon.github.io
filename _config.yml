@@ -1,5 +1,5 @@
 title: Hyung-Joo Moon # Shown in header on pages with full_logo: true
-short_logo: HM. # Shown in header on all pages by default unless full_logo: true is set
+short_logo: H.-J. Moon # Shown in header on all pages by default unless full_logo: true is set
 description: > # The description for your site
   It's me.
 url: "https://hyungjoomoon.github.io/" # Site base URL
