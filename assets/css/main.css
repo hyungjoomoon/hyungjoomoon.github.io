@@ -98,6 +98,7 @@ a.logo:hover {
 
 a:hover {
   color: #666d74;
+  text-decoration: none;
 }
 
 .menu {
