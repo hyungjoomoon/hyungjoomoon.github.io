@@ -96,6 +96,11 @@ a.logo:hover {
   text-decoration: none;
 }
 
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 .menu {
   color: #828282;
   font-size: 150%;
