@@ -89,8 +89,8 @@ th {
 /* TITLE */
 .logo,
 a.logo:hover {
-  font-size: 300%;
-  font-weight: 400; /* 700 */
+  font-size: 400%;
+  font-weight: 300; /* 700 */
   color: #212529;
   display: block;
   text-decoration: none;
