@@ -91,13 +91,13 @@ th {
 a.logo:hover {
   font-size: 300%;
   font-weight: 700;
-  color: #252525;
+  color: #212529;
   display: block;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7a7a7a;
+  color: #666d74;
 }
 
 .menu {
