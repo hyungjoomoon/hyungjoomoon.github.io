@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 a {
-  color: #57a;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@ th {
 a.logo:hover {
   font-size: 300%;
   font-weight: 700;
-  color: #16a085;
+  color: #3300ff;
   display: block;
   text-decoration: none;
 }
