@@ -2,7 +2,7 @@
 
 /* home, ... (Things below title) */
 a {
-  color: #2c3137;
+  color: #171a1c;
   text-decoration: none;
 }
 
@@ -20,7 +20,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #212529;
+  color: #171a1c;
   padding-top: 20px;
   font-weight: 500;
 }
@@ -86,12 +86,13 @@ th {
 }
 
 
+
 /* TITLE */
 .logo,
 a.logo:hover {
   font-size: 300%;
   font-weight: 700; /* 700 */
-  color: #212529;
+  color: #171a1c;
   display: block;
   text-decoration: none;
 }
@@ -249,7 +250,7 @@ a:hover {
 }
 
 .describe-text {
-  color: #212529;
+  color: #171a1c;
   /* font-style: italic; */
   font-weight: 300; /* 700 */
   font-size: 130%;
