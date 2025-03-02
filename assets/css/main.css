@@ -2,7 +2,7 @@
 
 /* home, ... (Things below title) */
 a {
-  color: #212529;
+  color: #2c3137;
   text-decoration: none;
 }
 
@@ -244,7 +244,7 @@ a.logo:hover {
 }
 
 .describe-text {
-  color: #565656;
+  color: #4a4a4a;
   font-style: italic;
   font-weight: 700;
   font-size: 130%;
