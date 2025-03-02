@@ -90,7 +90,7 @@ th {
 .logo,
 a.logo:hover {
   font-size: 300%;
-  font-weight: 700;
+  font-weight: 400; /* 700 */
   color: #212529;
   display: block;
   text-decoration: none;
@@ -141,7 +141,7 @@ a:hover {
 }
 
 .page-title__text {
-  font-weight: 700;
+  font-weight: 400; /* 700 */
   font-size: 120%;
 }
 
@@ -249,9 +249,9 @@ a:hover {
 }
 
 .describe-text {
-  color: #262a5b;
-  font-style: italic;
-  font-weight: 700;
+  color: #212529;
+  /* font-style: italic; */
+  font-weight: 300; /* 700 */
   font-size: 130%;
 }
 
