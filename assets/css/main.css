@@ -1,7 +1,8 @@
 @charset "UTF-8";
 
+/* home, ... (Things below title) */
 a {
-  color: rgb(0, 0, 0);
+  color: #212529;
   text-decoration: none;
 }
 
@@ -84,11 +85,13 @@ th {
   float: left;
 }
 
+
+/* TITLE */
 .logo,
 a.logo:hover {
   font-size: 300%;
   font-weight: 700;
-  color: #3300ff;
+  color: #212529;
   display: block;
   text-decoration: none;
 }
