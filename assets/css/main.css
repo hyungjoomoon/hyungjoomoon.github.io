@@ -6,11 +6,6 @@ a {
   text-decoration: none;
 }
 
-larger {
-  color: #171a1c;
-  font-size: 110%;
-}
-
 p,
 ul,
 ol,
@@ -210,8 +205,13 @@ a:hover {
 
 .post-title__subtitlenew {
   font-weight: 400;
-  font-size: 110%;
+  font-size: 120%;
   color: #2d3236;
+}
+
+.post-title__abstract {
+  color: #171a1c;
+  font-size: 105%;
 }
 
 .about {
