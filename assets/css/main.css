@@ -23,6 +23,7 @@ h6 {
   color: #171a1c;
   padding-top: 20px;
   font-weight: 500;
+  font-size: 15px;
 }
 
 bf {
@@ -96,7 +97,7 @@ th {
 /* TITLE */
 .logo,
 a.logo:hover {
-  font-size: 330%;
+  font-size: 300%;
   font-weight: 500; /* 700 */
   color: #0d0e0f;
   display: block;
