@@ -204,8 +204,8 @@ a:hover {
 }
 
 .post-title__subtitlenew {
-  font-weight: 500;
-  font-size: 120%;
+  font-weight: 400;
+  font-size: 110%;
   color: #171a1c;
 }
 
@@ -256,7 +256,7 @@ a:hover {
 }
 
 .describe-text {
-  color: #171a1c;
+  color: #31363a;
   /* font-style: italic; */
   font-weight: 400; /* 700 */
   font-size: 130%;

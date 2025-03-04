@@ -5,7 +5,7 @@
                 {% assign tags = post.tags %}
                 {% include tag_loop.html %}
                 <h4><b><a class="stretched-link" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></b></h4>
-                <p class="post-title__subtitlenew">{% if post.author.name %}{{ post.author.name }}{% else %}{{ site.author.name }}{% endif %}, {{ post.status }} <span style="color: black;">{{ post.journal }}</span>, {{ post.date | date: "%b, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %}</p>      
+                <p class="post-title__subtitlenew">{% if post.author.name %}{{ post.author.name }}{% else %}{{ site.author.name }}{% endif %}, {{ post.status }} <span style="color: rgb(68, 0, 255);">{{ post.journal }}</span>, {{ post.date | date: "%b, 20%y" }} {% if post.updated %} (Updated {{ post.updated | date: "%b %e, 20%y" }}) {% endif %}</p>      
                 <p>{{ post.content | strip_html | truncatewords: 15 }}</p>
             </div>
 
