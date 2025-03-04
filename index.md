@@ -7,7 +7,7 @@ description: A minimal yet feature-rich Jekyll theme made for personal websites 
 sitemap:
   priority: 1.0
 ---
-<p class="describe-text"> He He received the B.S. degree from the School of Integrated Technology, Yonsei University, South Korea, in 2019, where he is currently pursuing the Ph.D. degree. His research interests include performance analysis and system optimization for emerging technologies in 6G non-terrestrial network (NTN).</p>
+<p class="describe-text"> received the B.S. degree from the School of Integrated Technology, Yonsei University, South Korea, in 2019, where he is currently pursuing the Ph.D. degree. His research interests include performance analysis and system optimization for emerging technologies in 6G non-terrestrial network (NTN).</p>
 <br>
 This is the index page, describe yourself in few sentences here. Perhaps talk about what you do for living and what you do in your free time. Maybe even leave an [email@address.com](#) or a link to your [resume](#).
 
