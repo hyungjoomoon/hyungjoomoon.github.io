@@ -1,19 +1,19 @@
 ---
 layout: page
 ---
-<h1>Posts</h1>
+<h1>Publications</h1>
 <br>
 {% assign posts = site.posts | where: 'tags', page.tag %}
 
 {% if posts[0] %}
     {% include post/post_loop.html %}
 {% else %}
-    <p>No posts with this tag.</p>
+    <p>No publications with this tag.</p>
 {% endif %}
 
 
 
-<h1>Projects</h1>
+<h1>Photos</h1>
 <br>
 
 {% assign projects = site.data.projects | where: 'tags', page.tag %}
@@ -21,5 +21,5 @@ layout: page
 {% if projects[0] %}
     {% include project/project_loop.html %}
 {% else %}
-    <p>No projects with this tag.</p>
+    <p>No photos with this tag.</p>
 {% endif %}
