@@ -5,5 +5,6 @@
     <div class="post-title__text">{{ page.title }}</div>
 </h1>
 <br>
-{{ page.status }} {{ page.journal }}<br>
-{{ page.date | date: "%b, 20%y" }} {% if page.updated %} (Updated {{ page.updated | date: "%b %e, 20%y" }}) {% endif %} by {% if page.author.name %}<a href="{{ page.author.homepage }}" target="_blank">{{ page.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %}{% if page.pin %} • Pinned ⭐{% endif %}</p>
+{% if page.author.name %}<a href="{{ page.author.homepage }}" target="_blank">{{ page.author.name }}</a>{% else %}<a href="{{ site.author.homepage }}" target="_blank">{{ site.author.name }}</a>{% endif %} <a href="{{ page.paperlink }}" target="_blank">Link</a><br>
+{{ page.status }} {{ page.journal }}, {{ page.date | date: "%b, 20%y" }}
+</p>

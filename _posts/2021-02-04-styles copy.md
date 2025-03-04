@@ -5,6 +5,7 @@ title: RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Co
 journal: "<em>IEEE Wireless Communications Letters</em>"
 date: 2021-02-01 # Publish date in YYYY-MM-DD format
 status: Published in
+paperlink: https://ieeexplore.ieee.org/abstract/document/9598830
 
 # Recommended front matter
 tags: tag2 tag4 # A list of tags
