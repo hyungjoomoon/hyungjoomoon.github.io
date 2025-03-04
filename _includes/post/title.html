@@ -2,10 +2,10 @@
 {% include tag_loop.html %}
 
 <h1 class="post-title">
-    <div class="post-title__text">{{ page.title }}</div>
+    <div class="post-title__text">{{ page.title }} <a href="{{ page.paperlink }}" target="_blank"><i class="fas fa-book" style="color: rgb(68, 0, 255);"></i></a></div>
 </h1>
 <br>
-<p><a href="{{ page.paperlink }}" target="_blank"><i class="fas fa-book" style="color: rgb(68, 0, 255);"></i></a><br>
+<p>
 {{ page.author.name }} <br>
 {{ page.status }} {{ page.journal }}, {{ page.date | date: "%b, 20%y" }}
 </p>
