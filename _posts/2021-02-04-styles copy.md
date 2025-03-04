@@ -8,7 +8,7 @@ status: Published in
 paperlink: https://ieeexplore.ieee.org/abstract/document/9598830
 
 # Recommended front matter
-tags: tag2 tag4 # A list of tags
+tags: FSO MIMO # A list of tags
 splash_img_source: /assets/img/photo-1556075798-4825dfaaf498.jpeg # Splash image source, high resolution images with an aspect ratio close to 4:3 recommended
 splash_img_caption: A sample splash image with a sample caption. Image by <a href="https://unsplash.com/@yancymin">Yancy Min</a> on Unsplash. # Splash image caption
 
