@@ -27,7 +27,7 @@ h6 {
 
 h7 {
   color: #171a1c;
-  padding-top: 10px;
+  padding-top: 15px;
   font-weight: 500;
   font-size: 20px;
 }
@@ -218,7 +218,7 @@ a:hover {
 
 .post-title__subtitlenew {
   font-weight: 400;
-  font-size: 120%;
+  font-size: 100%;
   color: #2d3236;
 }
 
