@@ -1,5 +1,7 @@
 {% if page.splash_img_source %}
-<img class="splash-img" src="{{ site.url }}{{ page.splash_img_source }}" loading="lazy" alt="{{ page.splash_img_caption | strip_html }}">
+<div class="col-sm-6">
+    <img class="splash-img" src="{{ site.url }}{{ page.splash_img_source }}" loading="lazy" alt="{{ page.splash_img_caption | strip_html }}">
+</div>
 {% endif %}
 
 {% if page.splash_img_caption %}
