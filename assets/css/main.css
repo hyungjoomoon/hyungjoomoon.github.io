@@ -23,7 +23,13 @@ h6 {
   color: #171a1c;
   padding-top: 20px;
   font-weight: 500;
-  font-size: 15px;
+}
+
+h7 {
+  color: #171a1c;
+  padding-top: 10px;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 bf {
