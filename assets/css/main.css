@@ -6,6 +6,11 @@ a {
   text-decoration: none;
 }
 
+larger {
+  color: #171a1c;
+  font-size: 110%;
+}
+
 p,
 ul,
 ol,
