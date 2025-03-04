@@ -172,7 +172,7 @@ a:hover {
 }
 
 .post-teaser {
-  margin-bottom: 15px;
+  margin-bottom: 5px; /*15*/
   font-weight: 700;
 }
 
@@ -218,7 +218,7 @@ a:hover {
 
 .post-title__subtitlenew {
   font-weight: 400;
-  font-size: 80%;
+  font-size: 100%;
   color: #2d3236;
 }
 
