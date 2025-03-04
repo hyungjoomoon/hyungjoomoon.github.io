@@ -2,7 +2,7 @@
 # Required front matter
 layout: post # Posts should use the post layout
 title: RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications # Post title
-journal: IEEE Wireless Communications Letters
+journal: "<em>IEEE Wireless Communications Letters<em>"
 date: 2021-02-01 # Publish date in YYYY-MM-DD format
 
 # Recommended front matter
