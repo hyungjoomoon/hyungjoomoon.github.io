@@ -1,7 +1,7 @@
-- name: Photo 1 # Project name, also used as heading
+- name: 6-27-2024 # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
   img_src: /assets/img/connectpie-page.png # Optional image
-  description_less: 6-27-2024 # Description shown at all times, text only
+  description_less: My birthday # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
     <p>This part is only seen when you click on the project card.</p> 
   #action_buttons: > # Action buttons for project, HTML only
