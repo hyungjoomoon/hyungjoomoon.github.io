@@ -34,7 +34,7 @@ h7 {
   color: #171a1c;
   padding-top: 20px;
   font-weight: 500;
-  font-size: 120%;
+  font-size: 125%;
 }
 
 bf {
@@ -161,7 +161,7 @@ a:hover {
 
 .page-title__text {
   font-weight: 700; /* 700 */
-  font-size: 100%; /* 120 */
+  font-size: 105%; /* 120 */
 }
 
 .page-title__subtitle {
