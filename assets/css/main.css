@@ -25,6 +25,10 @@ h6 {
   font-weight: 500;
 }
 
+bf {
+  font-size: 15px;
+}
+
 img {
   border-radius: 0.25rem;
   display: block;
