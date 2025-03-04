@@ -1,8 +1,8 @@
 ---
 # Required front matter
 layout: post # Posts should use the post layout
-title: Content Styles # Post title
-date: 2021-02-05 # Publish date in YYYY-MM-DD format
+title: RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications # Post title
+date: 2021-02-00 # Publish date in YYYY-MM-DD format
 
 # Recommended front matter
 tags: tag2 tag4 # A list of tags
@@ -10,7 +10,7 @@ splash_img_source: /assets/img/photo-1556075798-4825dfaaf498.jpeg # Splash image
 splash_img_caption: A sample splash image with a sample caption. Image by <a href="https://unsplash.com/@yancymin">Yancy Min</a> on Unsplash. # Splash image caption
 
 # Optional front matter
-updated: 2021-02-06 # Updated date in YYYY-MM-DD format
+# updated: 2021-02-06 # Updated date in YYYY-MM-DD format
 author: 
   name: Some Guest Author # Author name, if not provided defaults to site.author.name
   homepage: http://example.com # Author link, if not provided defaults to site.author.homepage
