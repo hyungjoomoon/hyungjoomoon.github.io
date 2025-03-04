@@ -203,6 +203,12 @@ a:hover {
   color: #727272;
 }
 
+.post-title__subtitlenew {
+  font-weight: 500;
+  font-size: 120%;
+  color: #171a1c;
+}
+
 .about {
   color: #727272;
   text-align: center;
