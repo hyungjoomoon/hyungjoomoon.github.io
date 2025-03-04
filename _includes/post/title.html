@@ -5,6 +5,7 @@
     <div class="post-title__text">{{ page.title }}</div>
 </h1>
 <br>
-{{ page.author.name }} <a href="{{ page.paperlink }}" target="_blank">Link</a><br>
+<a href="{{ page.paperlink }}" target="_blank"><span style="color: black;">Link</span></a><br>
+{{ page.author.name }} <br>
 {{ page.status }} {{ page.journal }}, {{ page.date | date: "%b, 20%y" }}
 </p>
