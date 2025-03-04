@@ -209,6 +209,12 @@ a:hover {
   color: #2d3236;
 }
 
+.post-title__abstract {
+  font-weight: 400;
+  font-size: 110%;
+  color: #171a1c;
+}
+
 .about {
   color: #727272;
   text-align: center;
