@@ -13,7 +13,7 @@ splash_img_caption: A sample splash image with a sample caption. Image by <a hre
 # Optional front matter
 # updated: 2021-02-06 # Updated date in YYYY-MM-DD format
 author: 
-  name: "<span style="color: black;">H.-J. Moon</span>, H.-B. Jeon, C.-B. Chae" # Author name, if not provided defaults to site.author.name
+  name: "<strong>H.-J. Moon</strong>, H.-B. Jeon, C.-B. Chae" # Author name, if not provided defaults to site.author.name
   homepage: http://example.com # Author link, if not provided defaults to site.author.homepage
 pin: false # true if this post must be pinned on top of the page, default is false.
 listed: true # false if this post must NOT be included on the posts page, sitemap, and any of the tag pages, default is true
