@@ -372,6 +372,37 @@ a:hover {
   animation: glitch 2s steps(100) infinite;
 }
 
+
+
+
+
+
+
+
+.bio-container {
+  overflow: hidden; /* Helps contain floated elements */
+  margin-bottom: 20px; /* Optional: space after the bio section */
+}
+
+.profile-photo {
+  float: left;
+  margin-right: 20px; /* Adjust spacing between the photo and text */
+  width: 150px;     /* Optional: set a fixed width */
+  /* You can set a height or let it be determined by the image’s aspect ratio */
+}
+
+.bio-content {
+  /* The text will automatically wrap to the right of the floated image */
+  overflow: hidden; /* Ensures the container expands correctly if needed */
+}
+
+
+
+
+
+
+
+
 @keyframes glitch {
   0% {
     text-shadow: 1px 0 0 red, -1px 0 0 blue;
