@@ -387,7 +387,7 @@ a:hover {
 .profile-photo {
   float: left;
   margin-right: 20px; /* Adjust spacing between the photo and text */
-  width: 150px;     /* Optional: set a fixed width */
+  width: 200px;     /* Optional: set a fixed width */
   /* You can set a height or let it be determined by the image’s aspect ratio */
 }
 
