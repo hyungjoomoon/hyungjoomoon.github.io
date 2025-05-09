@@ -291,6 +291,13 @@ a:hover {
   color: #31363a;
   /* font-style: italic; */
   font-weight: 400; /* 700 */
+  font-size: 100%;
+}
+
+.title-text {
+  color: #31363a;
+  /* font-style: italic; */
+  font-weight: 500; /* 700 */
   font-size: 120%;
 }
 
