@@ -1,35 +1,173 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8cfa8785-8df8-4aad-ad35-8f1c790b8baf/deploy-status)](https://app.netlify.com/sites/digital-garden-jekyll-template/deploys)
+# Bay
 
-# Digital garden Jekyll template
+[![Version](https://img.shields.io/gem/v/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
+[![Downloads](https://img.shields.io/gem/dt/bay_jekyll_theme)](https://rubygems.org/gems/bay_jekyll_theme)
 
-Use this template repository to get started with your own digital garden.
+Bay is a simple theme for Jekyll. [[view live]](https://eliottvincent.github.io/bay)
 
-**I wrote a tutorial explaining how to set it up: [Setting up your own digital garden with Jekyll](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll)**
+Inspired by [dangrover.com](http://dangrover.com/). Current theme used at [eliottvincent.com](http://eliottvincent.com/).
 
-Preview the template here: https://digital-garden-jekyll-template.netlify.app/
+![](/screenshot.png)
 
-- Based on Jekyll, a static website generator
-- Supports Roam-style double bracket link syntax to other notes
-- Creates backlinks to other notes automatically
-- Features link previews on hover
-- Includes graph visualization of the notes and their links
-- Features a simple and responsive design
-- Supports Markdown or HTML notes
 
-<img width="1522" alt="Screen Shot 2020-05-19 at 23 05 46" src="https://user-images.githubusercontent.com/8457808/82400515-7d026d80-9a25-11ea-83f1-3b9cb8347e07.png">
+## Table of contents
+1. [Installation](#installation)
+2. Website sections
+    1. [Header](#header)
+    2. [Footer](#footer)
+    3. [Home page](#home-page)
+    4. [Blog page](#blog-page)
+5. [GitHub Pages](#github-pages)
+6. [Development instructions](#development)
 
-## A note about GitHub Pages
-> [!NOTE]  
-> **Update (January 2023)**: it seems that GitHub Pages supports custom plugins now, thanks to GitHub Actions ([view relevant discussion](https://github.com/maximevaillancourt/digital-garden-jekyll-template/discussions/144)). 
 
-GitHub Pages only partially supports this template: to power the interactive notes graph, this template uses a custom Jekyll plugin to generate the graph data in [`notes_graph.json`](https://github.com/maximevaillancourt/digital-garden-jekyll-template/blob/7ac331a4113bac77c993856562acc2bfbde9f2f7/_plugins/bidirectional_links_generator.rb#L102), and [GitHub Pages doesn't support custom Jekyll plugins](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll#plugins).
+### Installation
 
-If you want to use the graph with GitHub Pages, you may try building your garden locally using Jekyll then pushing the result to GitHub Pages.
 
-Alternatively, you may deploy your garden to Netlify and it'll work out of the box. [I wrote a guide explaining how to set this up](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+The easiest solution is to [fork this repo](https://github.com/eliottvincent/bay/fork).
+If you want to start from a clean website, follow the steps below:
 
-If you don't care about the graph, you can simply remove it from this layout, [as explained here](https://github.com/maximevaillancourt/digital-garden-jekyll-template/discussions/132#discussioncomment-3625772).
+Create a new Jekyll website:
+```
+jekyll new mysite
+```
 
-## License
+Open `Gemfile` and replace the line:
+```
+gem "minima"
+```
+with:
+```
+gem "bay_jekyll_theme"
+```
 
-Source code is available under the [MIT license](LICENSE.md).
+Open `_config.yml` and replace the line:
+```
+theme: minima
+```
+with:
+```
+theme: bay_jekyll_theme
+```
+or, for GitHub Pages:
+```
+remote_theme: eliottvincent/bay
+```
+
+Finally, install the dependencies:
+```
+bundle install
+```
+
+and build the website!
+```
+jekyll serve
+```
+
+
+The website will look somewhat empty at first. That's normal. Follow the next instructions to complete the header and footer components, and the home and blog pages.
+
+#### Header
+Open the `_config.yml` file and add the following:
+```yml
+header:
+  pages:
+    - name: Home
+      slug: /     # <-- index.md
+    - name: Blog  # <-- blog.md
+    - name: Whatever  # <-- whatever.md
+```
+Re-run `jekyll serve` to see the header updated.
+
+#### Footer
+Open the `_config.yml` file and add the following:
+```yml
+footer:
+  show_powered_by: true
+  contact:
+    - type: email
+      name: Email
+      value: yourmail@domain.com
+    - type: wechat
+      value: YourWeChatUsername
+      link: "#"
+  follow:
+    - type: twitter
+      name: Twitter
+      link: http://twitter.com/YourTwitterUsername
+      username: "@YourTwitterUsername"
+    - type: facebook
+      name: Facebook
+      link: http://facebook.com/YourFacebookUsername
+    - type: linkedin
+      name: LinkedIn
+      link: http://linkedin.com/in/YourLinkedInUsername
+    - type: github
+      name: GitHub
+      link: http://github.com/YourGitHubUsername
+    - type: dribbble
+      name: Dribbble
+      link: https://dribbble.com/YourDribbbleUsername
+    - type: rss
+      name: RSS
+      link: /feed.xml
+```
+Re-run `jekyll serve` to see the footer updated.
+
+#### Home page
+Create (or edit) the `index.markdown` file and add the following:
+```yml
+---
+layout: home
+profile_picture:
+  src: /assets/img/profile-pic.jpg
+  alt: website picture
+---
+
+<p>
+  Welcome to my site!
+</p>
+```
+
+#### Blog page
+Create `blog.markdown` file and add the following:
+```yml
+---
+layout: blog
+title: Blog
+slug: /blog
+---
+
+This is an example of a "Blog" page, displaying a list of posts.
+<br />
+```
+
+
+Your website is ready!
+
+
+### GitHub Pages
+
+You can deploy your website to GitHub Pages, but you cannot use the 1-click GitHub Pages build and deploy system. The issue is that the Bay theme relies on Jekyll 4.3+ (which uses a more modern Sass processor), whereas the GitHub Pages build system uses an older version of Jekyll.
+
+However, it's fairly easy to build and deploy your website with GitHub Actions, yet use GitHub Pages to host it.
+
+Further explanations and instructions can be found on the official [Jekyll website](https://jekyllrb.com/docs/continuous-integration/github-actions/).
+
+You can also refer to the [`.github/workflows/deploy.yml`](https://github.com/eliottvincent/bay/blob/master/.github/workflows/deploy.yml) file in this repository.
+
+### Development
+
+#### Run development instance (with hot-reload)
+```sh
+bundle exec jekyll serve
+```
+
+#### Build and publish the gem
+```sh
+gem build bay_jekyll_theme.gemspec
+```
+
+```sh
+gem push bay_jekyll_theme-1.x.x.gem
+```
