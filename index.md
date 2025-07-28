@@ -32,7 +32,7 @@ sitemap:
 
 <hr class="section-divider">
 
-<p class="main-title"> SELECTED PUBLICATIONS</p>
+<p class="main-title"> RECENT PUBLICATIONS</p>
 <ul class="publications-list main-text">
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
