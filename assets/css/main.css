@@ -2,7 +2,7 @@
 
 /* home, ... (Things below title) */
 a {
-  color: #171a1c;
+  color: #101213;
   text-decoration: none;
 }
 
@@ -19,33 +19,38 @@ p1 {
   line-height: 20px;
 }
 
+p2 {
+  font-size: 100%;
+  line-height: 26px;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  color: #171a1c;
+  color: #101213;
   padding-top: 20px;
   font-weight: 500;
 }
 
 h7 {
-  color: #171a1c;
+  color: #101213;
   padding-top: 20px;
   font-weight: 500;
   font-size: 125%;
 }
 
 h8 {
-  color: #171a1c;
+  color: #101213;
   padding-top: 20px;
   font-weight: 500;
   font-size: 200%;
 }
 
 bf {
-  color: #171a1c;
+  color: #101213;
   font-size: 15px;
   font-weight: 500;
 }
@@ -238,7 +243,7 @@ a:hover {
 .post-title__abstract {
   font-weight: 400;
   font-size: 110%;
-  color: #171a1c;
+  color: #101213;
 }
 
 .about {
