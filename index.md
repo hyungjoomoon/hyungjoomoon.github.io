@@ -52,6 +52,9 @@ Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae,
   <li>
 H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M. Chung, S.-K. Han, C.-B. Chae, and M.-S. Alouini, "Free-Space Optical Communications for 6G-enabled Long-Range Wireless Networks: Challenges, Opportunities, and Prototype Validation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 61, no. 4, pp. 116-121, Apr. 2023.<br>
   </li>
+  <li>
+<strong>H.-J. Moon</strong>, H.-B. Jeon, and C.-B. Chae "RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications," <em class="journal-title">IEEE Wireless Commun. Lett.</em>, vol. 11, no. 2, pp. 240-244, Feb. 2022.<br>
+  </li>
 </ul>
 
 <hr class="section-divider">
