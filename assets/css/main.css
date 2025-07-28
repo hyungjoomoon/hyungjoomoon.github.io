@@ -293,14 +293,21 @@ a:hover {
 }
 
 .describe-text {
-  color: #31363a;
+  color: #232629;
   /* font-style: italic; */
   font-weight: 400; /* 700 */
   font-size: 100%;
 }
 
+.main-text {
+  color: #232629;
+  /* font-style: italic; */
+  font-weight: 400; /* 700 */
+  font-size: 120%;
+}
+
 .title-text {
-  color: #31363a;
+  color: #232629;
   /* font-style: italic; */
   font-weight: 500; /* 700 */
   font-size: 120%;
