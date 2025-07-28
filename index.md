@@ -72,7 +72,7 @@ Wireless Systems and Innovation Lab (Prof. Robert W. Heath, Jr.), University of 
 Communication Theory Lab (Prof. Mohamed-Slim Alouini), King Abdullah University of Science and Technology (KAUST), Saudi Arabia
   </li>
   <li>
-<strong>Research Intern</strong> (<span class="date-text">Mar. 2018 - Feb. 2019</span>)
+<strong>Research Internship</strong> (<span class="date-text">Mar. 2018 - Feb. 2019</span>)
 <br>
 Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei University, South Korea
   </li>
