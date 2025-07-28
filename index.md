@@ -27,7 +27,7 @@ sitemap:
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
 <strong>Ph.D.</strong> Candidate in Integrated Technology (<span class="date-text">Mar. 2019 - Present</span>)<br>
-<strong>B.S.</strong> in Integrated Technology (<span class="date-text">Mar. 2016 - Feb. 2019</span>)
+<strong>B.S.</strong> in Integrated Technology (<span class="date-text">Mar. 2016 - Feb. 2019 asdf</span>)
 </p>
 
 <hr class="section-divider">
