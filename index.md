@@ -46,6 +46,9 @@ Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae,
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 62, no. 3, pp. 32-38, Mar. 2024.<br>
   </li>
+  <li>
+<strong>H.-J. Moon</strong>, C.-B. Chae, and M.-S. Alouini, "Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications with Pointing Errors," <em class="journal-title">IEEE Trans. Veh. Technol.</em>, vol. 72, no. 8, pp. 10982-10987, Aug. 2023.<br>
+  </li>
 </ul>
 
 <hr class="section-divider">
