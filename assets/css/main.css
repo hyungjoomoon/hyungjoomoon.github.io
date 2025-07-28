@@ -313,6 +313,13 @@ a:hover {
   font-size: 120%;
 }
 
+.main-title {
+  color: #232629;
+  /* font-style: italic; */
+  font-weight: 500; /* 700 */
+  font-size: 150%;
+}
+
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
   p,
