@@ -24,16 +24,7 @@ sitemap:
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
 <strong>Ph.D.</strong> Candidate in Integrated Technology (Mar. 2019 - Present)<br>
-<strong>B.S.</strong> in Integrated Technology (Mar. 2016 - Feb. 2019)<br>
-  <strong>Intelligence Networking Lab, Yonsei University, South Korea</strong> <br>
-  <strong>Supervisor:</strong> Prof. Chan-Byoung Chae <br><br>
-  <strong>Research Interests:</strong>
-  <ul>
-    <li>6G MIMO Systems</li>
-    <li>Satellite and UAV Communications</li>
-    <li>Artificial Intelligence for Wireless Networks</li>
-  </ul>
-  <strong>B.S., Integrated Technology</strong>, Yonsei University (2019)
+<strong>B.S.</strong> in Integrated Technology (Mar. 2016 - Feb. 2019)
 </p>
 <br>
 <br>
