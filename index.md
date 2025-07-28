@@ -23,7 +23,6 @@ sitemap:
 <p class="main-text"> I am a 6G communications researcher and Ph.D. candidate at the Intelligence Networking Lab, Yonsei University, South Korea, supervised by Prof. Chan-Byoung Chae. My current research centers on 6G MIMO, satellite and UAV communications, and the integration of artificial intelligence in wireless systems. I received my B.S. in Integrated Technology from Yonsei University in 2019 and am now pursuing my Ph.D. at the same institution. </p>
 
 <hr class="section-divider">
-<br>
 
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
@@ -42,7 +41,7 @@ sitemap:
 <strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218-233, Jan. 2025.<br>
   </li>
   <li>
-Y.Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">IEEE Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
+Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">IEEE Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
   </li>
 </ul>
 

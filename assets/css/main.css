@@ -324,10 +324,12 @@ a:hover {
 }
 
 .date-text {
+  color: #232629;
   font-weight: 500;    /* Medium or adjust to 600 for semi-bold */       /* Optional: slight gray for distinction */
 }
 
 .journal-title {
+  color: #232629;
   font-style: italic;
 }
 
