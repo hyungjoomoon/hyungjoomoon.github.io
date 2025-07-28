@@ -28,6 +28,11 @@ sitemap:
 </p>
 <hr class="section-divider">
 <br>
+<p class="main-title"> EDUCATION</p>
+<p class="main-text"> 
+<strong>Ph.D.</strong> Candidate in Integrated Technology (Mar. 2019 - Present)<br>
+<strong>B.S.</strong> in Integrated Technology (Mar. 2016 - Feb. 2019)
+</p>
 <br>
 <br>
 <br>
