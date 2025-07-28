@@ -324,7 +324,6 @@ a:hover {
 }
 
 .date-text {
-  color: #101213;
   font-weight: 700;    /* Medium or adjust to 600 for semi-bold */       /* Optional: slight gray for distinction */
 }
 
@@ -342,7 +341,7 @@ a:hover {
 
 .publications-list li {
   margin-bottom: 16px;           /* Adds space between publications */
-  line-height: 1.6;              /* For better readability */
+  line-height: 1.4;              /* For better readability */
 }
 
 
