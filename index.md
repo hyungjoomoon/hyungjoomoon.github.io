@@ -21,18 +21,29 @@ sitemap:
 
 <p class="main-title"> BIO</p>
 <p class="main-text"> I am a 6G communications researcher and Ph.D. candidate at the Intelligence Networking Lab, Yonsei University, South Korea, supervised by Prof. Chan-Byoung Chae. My current research centers on 6G MIMO, satellite and UAV communications, and the integration of artificial intelligence in wireless systems. I received my B.S. in Integrated Technology from Yonsei University in 2019 and am now pursuing my Ph.D. at the same institution. </p>
+
+<hr class="section-divider">
 <br>
+
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
 <strong>Ph.D.</strong> Candidate in Integrated Technology (<span class="date-text">Mar. 2019 - Present</span>)<br>
 <strong>B.S.</strong> in Integrated Technology (Mar. 2016 - Feb. 2019)
 </p>
+
 <hr class="section-divider">
 <br>
+
 <p class="main-title"> SELECTED PUBLICATIONS</p>
 <p class="main-text"> 
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, ``A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 1, pp. 5723--5737, Jul. 2025.<br>
+<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723--5737, Jul. 2025.<br>
+<strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218--233, Jan. 2025.<br>
 </p>
+
+<hr class="section-divider">
+<br>
+
+
 <br>
 <br>
 <br>
