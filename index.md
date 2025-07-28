@@ -19,7 +19,7 @@ sitemap:
 </div>
 -->
 
-<p class="describe-text"> I am a 6G communications researcher and a Ph.D. candidate at the Intelligence Networking Lab, Yonsei University, South Korea, under the supervision of Prof. Chan-Byoung Chae. Currently, my research focuses on 6G MIMO, satellite and UAV communications, and artificial intelligence. I earned my B.S. degree from the School of Integrated Technology at Yonsei University in 2019, where I am currently pursuing the Ph.D. degree.</p>
+<p1 class="describe-text"> I am a 6G communications researcher and Ph.D. candidate at the Intelligence Networking Lab, Yonsei University, South Korea, supervised by Prof. Chan-Byoung Chae. My current research centers on 6G MIMO, satellite and UAV communications, and the integration of artificial intelligence in wireless systems. I received my B.S. in Integrated Technology from Yonsei University in 2019 and am now pursuing my Ph.D. at the same institution. </p1>
 <br>
 <br>
 <p class="title-text"> Publications</p>
