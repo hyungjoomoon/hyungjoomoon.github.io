@@ -66,6 +66,16 @@ H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M.
 <br>
 Wireless Systems and Innovation Lab (Prof. Robert W. Heath, Jr.), University of California San Diego (UCSD), USA
   </li>
+  <li>
+<strong>Visiting Scholar</strong> (<span class="date-text">Feb. 2023</span>)
+<br>
+Communication Theory Lab (Prof. Mohamed-Slim Alouini), King Abdullah University of Science and Technology (KAUST), Saudi Arabia
+  </li>
+  <li>
+<strong>Research Intern</strong> (<span class="date-text">Mar. 2018 - Feb. 2019</span>)
+<br>
+Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei University, South Korea
+  </li>
 </ul>
 
 <br>
