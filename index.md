@@ -59,6 +59,14 @@ H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M.
 
 <hr class="section-divider">
 
+<p class="main-title"> RESEARCH EXPERIENCES</p>
+<ul class="publications-list main-text">
+  <li>
+<strong>Visiting Scholar</strong> (<span class="date-text">Jul. 2024 - Jan. 2025</span>)
+<br>
+Wireless Systems and Innovation Lab (Prof. Robert W. Heath, Jr.), University of California San Diego (UCSD), USA
+  </li>
+</ul>
 
 <br>
 <br>
