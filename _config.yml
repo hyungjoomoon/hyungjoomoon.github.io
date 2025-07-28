@@ -1,69 +1,53 @@
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Hyung-Joo Moon # Shown in header on pages with full_logo: true
+short_logo: H.-J. Moon # Shown in header on all pages by default unless full_logo: true is set
+description: > # The description for your site
+  It's me.
+url: "https://hyungjoomoon.github.io/" # Site base URL
 
-title: Bay Jekyll Theme
-description: Bay is a minimal Jekyll Theme.
-baseurl: "/bay"
-url: "https://eliottvincent.github.io"
-og_image: /assets/img/profile-pic.jpg
-google_analytics: "UA-121636368-3"
+author:
+  name: Hyung-Joo Moon
+  github: citations?user=bd66RuQAAAAJ&hl=ko # GitHub username, used for GitHub icon on the top right
+  linkedin: hyung-joo-moon-304b42303/ # Your LinkedIn profile url name, used for LinkedIn icon on the top right
+  email: moonhj@yonsei.ac.kr # Used for email icon on the top right
+  homepage: https://hyungjoomoon.github.io/ # This links to your name in post meta
+  twitter: # Twitter username, used for Twitter Card Analytics 
 
-header:
-  pages:
-    - name: Home
-      slug: /
-    - name: Work
-    - name: Blog
+disqus_name: # Setting this will turn on Disqus comments
+g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
 
-footer:
-  show_powered_by: true
-  contact:
-    - type: email
-      name: Email
-      value: yourmail@domain.com
-    - type: wechat
-      value: YourWeChatUsername
-      link: "#"
-  follow:
-    - type: twitter
-      name: Twitter
-      link: http://twitter.com/YourTwitterUsername
-      username: "@YourTwitterUsername"
-    - type: facebook
-      name: Facebook
-      link: http://facebook.com/YourFacebookUsername
-    - type: linkedin
-      name: LinkedIn
-      link: http://linkedin.com/in/YourLinkedInUsername
-    - type: github
-      name: GitHub
-      link: http://github.com/YourGitHubUsername
-    - type: dribbble
-      name: Dribbble
-      link: https://dribbble.com/YourDribbbleUsername
-    - type: rss
-      name: RSS
-      link: /feed.xml
-
-# Build settings
 markdown: kramdown
-sass:
-    style: :compressed
-plugins:
-  - jekyll-feed
 
-# Excluded items
-exclude:
-  - .sass-cache/
-  - .jekyll-cache/
-  - feed.xml
-  - gemfiles/
-  - Gemfile
-  - Gemfile.lock
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+defaults: # Recommended defaults, you may set your own
+  -
+    scope:
+      path: _posts
+    values:
+      comments: true
+  -
+    scope:
+      path: pages/redirects
+    values:
+      layout: redirect
+      index: false
+      listed: false
+  -
+    scope:
+      path: pages/tags
+    values:
+      layout: tag
+      sitemap:
+        priority: 0.4
 
-# Used for defeating caching
-version: 1
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: [local]
+  blanklines: true
+  profile: false
+  startings: [html, head, body]
+
+rss: false # RSS feed icon on or off
+dark_mode: true # Dark mode icon
+project_card_style: modal # Choose from masonry, modal, and flat

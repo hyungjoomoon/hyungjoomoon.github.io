@@ -1,0 +1,11 @@
+{% if page.splash_img_source %}
+<div class="col-sm-6">
+    <img class="splash-img" src="{{ site.url }}{{ page.splash_img_source }}" loading="lazy" alt="{{ page.splash_img_caption | strip_html }}">
+</div>
+{% endif %}
+
+{% if page.splash_img_caption %}
+<div class="col-sm-6">
+    <p class="text-muted caption">{{ page.splash_img_caption }}</p>
+</div>
+{% endif %}
