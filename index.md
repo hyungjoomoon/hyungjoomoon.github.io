@@ -28,20 +28,25 @@ sitemap:
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
 <strong>Ph.D.</strong> Candidate in Integrated Technology (<span class="date-text">Mar. 2019 - Present</span>)<br>
-<strong>B.S.</strong> in Integrated Technology (Mar. 2016 - Feb. 2019)
+<strong>B.S.</strong> in Integrated Technology (<span class="date-text">Mar. 2016 - Feb. 2019</span>)
 </p>
 
 <hr class="section-divider">
-<br>
 
 <p class="main-title"> SELECTED PUBLICATIONS</p>
-<p class="main-text"> 
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723--5737, Jul. 2025.<br>
-<strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218--233, Jan. 2025.<br>
-</p>
+<ul class="publications-list main-text">
+  <li>
+<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
+  </li>
+  <li>
+<strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218-233, Jan. 2025.<br>
+  </li>
+  <li>
+Y.Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">IEEE Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
+  </li>
+</ul>
 
 <hr class="section-divider">
-<br>
 
 
 <br>

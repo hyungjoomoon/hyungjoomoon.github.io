@@ -324,13 +324,25 @@ a:hover {
 }
 
 .date-text {
-  font-weight: 500;    /* Medium or adjust to 600 for semi-bold */
-  color: #555;         /* Optional: slight gray for distinction */
+  font-weight: 500;    /* Medium or adjust to 600 for semi-bold */       /* Optional: slight gray for distinction */
 }
 
 .journal-title {
   font-style: italic;
 }
+
+.publications-list {
+  list-style-type: square;       /* Makes the bullets squares */
+  padding-left: 20px;            /* Adjusts indent */
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.publications-list li {
+  margin-bottom: 16px;           /* Adds space between publications */
+  line-height: 1.6;              /* For better readability */
+}
+
 
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
