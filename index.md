@@ -27,7 +27,7 @@ sitemap:
 <p class="main-title"> EDUCATION</p>
 <p class="main-text"> 
 <strong>Ph.D.</strong> Candidate in Integrated Technology (<span class="date-text">Mar. 2019 - Present</span>)<br>
-<strong>B.S.</strong> in Integrated Technology (<span class="date-text">Mar. 2016 - Feb. 2019 asdf</span>)
+<strong>B.S.</strong> in Integrated Technology (<span class="date-text">Mar. 2016 - Feb. 2019</span>)
 </p>
 
 <hr class="section-divider">
@@ -42,6 +42,9 @@ sitemap:
   </li>
   <li>
 Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">IEEE Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
+  </li>
+  <li>
+<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 62, no. 3, pp. 32-38, Mar. 2024.<br>
   </li>
 </ul>
 
