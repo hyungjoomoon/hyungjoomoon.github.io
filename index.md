@@ -78,6 +78,8 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   </li>
 </ul>
 
+<hr class="section-divider">
+
 <br>
 <br>
 <br>
