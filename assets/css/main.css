@@ -323,6 +323,15 @@ a:hover {
   width: 100%;                   /* full width */
 }
 
+.date-text {
+  font-weight: 500;    /* Medium or adjust to 600 for semi-bold */
+  color: #555;         /* Optional: slight gray for distinction */
+}
+
+.journal-title {
+  font-style: italic;
+}
+
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
   p,
