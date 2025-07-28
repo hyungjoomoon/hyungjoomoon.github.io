@@ -316,6 +316,13 @@ a:hover {
   font-size: 150%;
 }
 
+.section-divider {
+  border: none;
+  border-top: 1px solid #e0e0e0; /* light gray */
+  margin: 40px 0;               /* space above and below */
+  width: 100%;                   /* full width */
+}
+
 /* =Small screen */ /*************************************************************/
 @media (max-width: 600px) {
   p,
