@@ -324,7 +324,7 @@ a:hover {
 }
 
 .date-text {
-  font-weight: 700;    /* Medium or adjust to 600 for semi-bold */       /* Optional: slight gray for distinction */
+  font-weight: 500;    /* Medium or adjust to 600 for semi-bold */       /* Optional: slight gray for distinction */
 }
 
 .journal-title {
