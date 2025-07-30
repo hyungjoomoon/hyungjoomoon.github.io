@@ -41,7 +41,7 @@ sitemap:
 <strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218-233, Jan. 2025.<br>
   </li>
   <li>
-Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">IEEE Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
+Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
   </li>
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 62, no. 3, pp. 32-38, Mar. 2024.<br>
