@@ -35,7 +35,7 @@ sitemap:
 <p class="main-title"> RECENT PUBLICATIONS</p>
 <ul class="publications-list main-text">
   <li>
-<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath, Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, Submitted.<br>
+<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath, Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, Under Revision.<br>
   </li>
   <li>
 <strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath, Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, Early Access.<br>
