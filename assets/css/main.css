@@ -302,6 +302,14 @@ a:hover {
   font-size: 115%;
 }
 
+.main-news {
+  color: #232629;
+  font-family: Consolas, Menlo, "Courier New", monospace;
+  /* font-style: italic; */
+  font-weight: 400; /* 700 */
+  font-size: 115%;
+}
+
 .title-text {
   color: #232629;
   /* font-style: italic; */
