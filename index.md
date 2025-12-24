@@ -92,7 +92,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
 <p class="main-title"> <span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">NEWS</span></p>
 
 
-<p class="main-news"><span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">
+<p class="main-text"><span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">
 [Dec. 2025] I won first place in the IEEE ComSoc Four-Minute Competition (1st/56).
 [Sep. 2025] Our paper ``MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO" was accepted to IEEE TWC.
 </span></p>
