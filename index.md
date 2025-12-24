@@ -89,13 +89,12 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
 
 <hr class="section-divider">
 
-<p class="main-title"> NEWS</p>
+<p class="main-title"> <span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">NEWS</span></p>
 
-<p class="main-news"> 
+
+<p class="main-news"><span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">
 [Jul. 2023]
-</p>
-
-<p class="main-news"><span style="font-family: Consolas, Menlo, Monaco, 'Courier New', monospace;">[Jul. 2023]</span></p>
+</span></p>
 
 
 
