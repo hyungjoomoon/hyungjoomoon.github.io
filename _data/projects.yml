@@ -1,4 +1,4 @@
-- name: 12-11-2024 # Project name, also used as heading
+- name: 12-11-2025 # Project name, also used as heading
   id: p1 # Project id, must be unique amongst the projects
   img_src: /assets/img/4mt_photo.png # Optional image
   #description_less: My birthday # Description shown at all times, text only
