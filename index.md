@@ -96,7 +96,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Dec. 2025]</span>
     <span class="news-text">
-      I won first place in the IEEE ComSoc Four-Minute Competition (1st/56).
+      I won first place in the IEEE ComSoc Four-Minute Competition (1st/55).
     </span>
   </div>
 
