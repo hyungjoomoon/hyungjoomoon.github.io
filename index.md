@@ -103,8 +103,29 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Sep. 2025]</span>
     <span class="news-text">
-      Our paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping
+      My paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping
       Using High-Altitude Platforms with MIMO” was accepted to IEEE TWC.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Jul. 2024]</span>
+    <span class="news-text">
+      UCSD
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Feb. 2023]</span>
+    <span class="news-text">
+      My paper “Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications With Pointing Errors” was accepted to IEEE TVT.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Oct. 2021]</span>
+    <span class="news-text">
+      My paper “RF Lens Antenna Array-based One-Shot Coarse Pointing for Hybrid RF/FSO Communications” was accepted to IEEE WCL.
     </span>
   </div>
 </div>
