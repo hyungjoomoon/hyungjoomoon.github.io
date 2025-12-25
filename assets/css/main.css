@@ -333,6 +333,16 @@ a:hover {
   font-size: 1em;
 }
 
+/* ---- force identical font sizing & inheritance ---- */
+.news-list {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.news-list .news-date,
+.news-list .news-text {
+  font-size: inherit;
+}
 
 
 
