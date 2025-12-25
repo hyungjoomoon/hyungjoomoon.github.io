@@ -320,7 +320,7 @@ a:hover {
 .news-item {
   display: grid;
   grid-template-columns: 110px 1fr;
-  column-gap: 12px;
+  column-gap: 15px;
   margin-bottom: 5px;
 }
 
