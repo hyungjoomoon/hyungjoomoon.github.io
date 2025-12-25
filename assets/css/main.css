@@ -306,8 +306,35 @@ a:hover {
   color: #232629;
   /* font-style: italic; */
   font-weight: 400; /* 700 */
-  font-size: 100%;
+  font-size: 50%;
 }
+
+
+
+
+
+
+.news-item {
+  display: grid;
+  grid-template-columns: 90px 1fr; /* date column width */
+  column-gap: 10px;
+  margin-bottom: 6px;
+}
+
+.news-date {
+  font-size: 0.85em; /* smaller date */
+  white-space: nowrap;
+}
+
+.news-text {
+  font-size: 1em;
+}
+
+
+
+
+
+
 
 .title-text {
   color: #232629;
