@@ -103,29 +103,56 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Sep. 2025]</span>
     <span class="news-text">
-      My paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping
-      Using High-Altitude Platforms with MIMO” was accepted to IEEE TWC.
+      My paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO” has been accepted to IEEE TWC.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Feb. 2025]</span>
+    <span class="news-text">
+      My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to IEEE COMMAG.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Feb. 2025]</span>
+    <span class="news-text">
+      My paper “A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization” has been accepted to IEEE TWC.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Aug. 2024]</span>
+    <span class="news-text">
+      My paper “Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks” has been accepted to IEEE JSAC.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Jul. 2024]</span>
     <span class="news-text">
-      UCSD
+      I have started a visiting research at UCSD.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Nov. 2023]</span>
+    <span class="news-text">
+      My paper “Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation” has been accepted to IEEE COMMAG.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Feb. 2023]</span>
     <span class="news-text">
-      My paper “Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications With Pointing Errors” was accepted to IEEE TVT.
+      My paper “Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications With Pointing Errors” has been accepted to IEEE TVT.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Oct. 2021]</span>
     <span class="news-text">
-      My paper “RF Lens Antenna Array-based One-Shot Coarse Pointing for Hybrid RF/FSO Communications” was accepted to IEEE WCL.
+      My paper “RF Lens Antenna Array-based One-Shot Coarse Pointing for Hybrid RF/FSO Communications” has been accepted to IEEE WCL.
     </span>
   </div>
 </div>
