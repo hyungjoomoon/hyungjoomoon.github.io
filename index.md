@@ -96,7 +96,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Dec. 2025]</span>
     <span class="news-text">
-      I won first place in the IEEE ComSoc Four-Minute Competition (1st/55).
+      I won first place in the IEEE ComSoc Four-Minute Competition (1st out of 55).
     </span>
   </div>
 
@@ -138,7 +138,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Feb. 2024]</span>
     <span class="news-text">
-      I won bronze prize in the Samsung Humantech Paper Award.
+      I won the Bronze Prize at the Samsung Humantech Paper Award.
     </span>
   </div>
 
