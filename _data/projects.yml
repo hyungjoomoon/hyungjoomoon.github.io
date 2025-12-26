@@ -10,7 +10,7 @@
   #tags: [tag1, tag2] # A list of tags
 
 - name: 6-27-2024 # Project name, also used as heading
-  id: p1 # Project id, must be unique amongst the projects
+  id: p2 # Project id, must be unique amongst the projects
   img_src: /assets/img/new_profile_wide_final.png # Optional image
   #description_less: My birthday # Description shown at all times, text only
   description_more: > # Description shown only when the project card is expanded, HTML only
