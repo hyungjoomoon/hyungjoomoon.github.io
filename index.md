@@ -96,70 +96,70 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Dec. 2025]</span>
     <span class="news-text">
-      I won first place in the IEEE ComSoc Four-Minute Competition (1st out of 55).
+      I won <strong>first place</strong> in the <strong>IEEE ComSoc Four-Minute Competition</strong> (1st out of 55).
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Sep. 2025]</span>
     <span class="news-text">
-      My paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO” has been accepted to IEEE TWC.
+      My paper “MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO” has been accepted to <strong>IEEE TWC</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Aug. 2025]</span>
     <span class="news-text">
-      My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to IEEE COMMAG.
+      My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to <strong>IEEE COMMAG</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Feb. 2025]</span>
     <span class="news-text">
-      My paper “A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization” has been accepted to IEEE TWC.
+      My paper “A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization” has been accepted to <strong>IEEE TWC</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Aug. 2024]</span>
     <span class="news-text">
-      My paper “Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks” has been accepted to IEEE JSAC.
+      My paper “Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Newtorks” has been accepted to <strong>IEEE JSAC</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Jul. 2024]</span>
     <span class="news-text">
-      I have started a visiting research at UCSD.
+      I have started a <strong>visiting research at UCSD</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Feb. 2024]</span>
     <span class="news-text">
-      I won the Bronze Prize at the Samsung Humantech Paper Award.
+      I won the <strong>Bronze Prize</strong> at the <strong>Samsung Humantech Paper Award</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Nov. 2023]</span>
     <span class="news-text">
-      My paper “Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation” has been accepted to IEEE COMMAG.
+      My paper “Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation” has been accepted to <strong>IEEE COMMAG</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Feb. 2023]</span>
     <span class="news-text">
-      My paper “Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications With Pointing Errors” has been accepted to IEEE TVT.
+      My paper “Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications With Pointing Errors” has been accepted to <strong>IEEE TVT</strong>.
     </span>
   </div>
 
   <div class="news-item">
     <span class="news-date">[Oct. 2021]</span>
     <span class="news-text">
-      My paper “RF Lens Antenna Array-based One-Shot Coarse Pointing for Hybrid RF/FSO Communications” has been accepted to IEEE WCL.
+      My paper “RF Lens Antenna Array-based One-Shot Coarse Pointing for Hybrid RF/FSO Communications” has been accepted to <strong>IEEE WCL</strong>.
     </span>
   </div>
 </div>
