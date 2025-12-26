@@ -108,7 +108,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   </div>
 
   <div class="news-item">
-    <span class="news-date">[Feb. 2025]</span>
+    <span class="news-date">[Aug. 2025]</span>
     <span class="news-text">
       My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to IEEE COMMAG.
     </span>
@@ -132,6 +132,13 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
     <span class="news-date">[Jul. 2024]</span>
     <span class="news-text">
       I have started a visiting research at UCSD.
+    </span>
+  </div>
+
+  <div class="news-item">
+    <span class="news-date">[Feb. 2024]</span>
+    <span class="news-text">
+      I won bronze prize in the Samsung Humantech Paper Award.
     </span>
   </div>
 
