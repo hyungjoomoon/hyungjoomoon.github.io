@@ -131,7 +131,7 @@ Computer Vision and Machine Learning Lab (Prof. Hyunjung Shim), Yonsei Universit
   <div class="news-item">
     <span class="news-date">[Jul. 2024]</span>
     <span class="news-text">
-      I have started a <strong>visiting research at UCSD</strong>.
+      I started a <strong>visiting research at UCSD</strong>.
     </span>
   </div>
 
