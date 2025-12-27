@@ -325,17 +325,17 @@ a:hover {
 }
 
 .news-date {
-  font-size: 1em;
+  font-size: 0.9em;
   white-space: nowrap;
 }
 
 .news-text {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
 /* ---- force identical font sizing & inheritance ---- */
 .news-list {
-  font-size: 1em;
+  font-size: 0.9em;
   line-height: 1.6;
 }
 
