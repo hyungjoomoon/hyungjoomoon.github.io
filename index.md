@@ -53,7 +53,7 @@ sitemap:
   <div class="news-item">
     <span class="news-date">[Aug. 2025]</span>
     <span class="news-text">
-      My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to <strong>IEEE COMMAG</strong>.
+      My paper “AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission” has been accepted to <span class="nowrap"><strong>IEEE COMMAG</strong></span>.
     </span>
   </div>
 
