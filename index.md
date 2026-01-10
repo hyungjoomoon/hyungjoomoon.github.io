@@ -30,6 +30,13 @@ sitemap:
 
 <div class="news-list">
   <div class="news-item">
+    <span class="news-date">[Sep. 2025]</span>
+    <span class="news-text">
+      My paper “AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis” has been accepted to <strong>IEEE JSAC</strong>.
+    </span>
+  </div>
+
+  <div class="news-item">
     <span class="news-date">[Dec. 2025]</span>
     <span class="news-text">
       I won <strong>first place</strong> in the <strong>IEEE ComSoc Four-Minute Competition</strong> (1st out of 55).
