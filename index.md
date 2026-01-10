@@ -30,7 +30,7 @@ sitemap:
 
 <div class="news-list">
   <div class="news-item">
-    <span class="news-date">[Sep. 2025]</span>
+    <span class="news-date">[Jan. 2026]</span>
     <span class="news-text">
       My paper “AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis” has been accepted to <strong>IEEE JSAC</strong>.
     </span>
