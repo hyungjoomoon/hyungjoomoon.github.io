@@ -74,13 +74,13 @@ blockquote {
 }
 
 .wrapper {
-  max-width: 80%;
+  max-width: 70%;
   margin: 60px auto;
 }
 
 .post_wrapper {
-  max-width: 80%;
-  max-width: 800px;
+  max-width: 70%;
+  max-width: 720px;
   margin: 60px auto;
 }
 
