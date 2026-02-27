@@ -20,7 +20,7 @@ sitemap:
 -->
 
 
-<p class="main-text"> I am a Ph.D. student at Yonsei University, South Korea, under the supervision of Prof. Chan-Byoung Chae. My research has covered diverse wireless communication systems, including UAV/satellite communications and massive MIMO. I am currently exploring site-specific AI models, digital twins, and cross-layer intelligence toward AI-RAN architectures. </p>
+<p class="main-text"> I am a postdoctoral researcher at Yonsei University, South Korea, working with Prof. Chan-Byoung Chae. My research has covered diverse wireless communication systems, including UAV/satellite communications and massive MIMO. I am currently exploring site-specific AI models, digital twins, and cross-layer intelligence toward AI-RAN architectures. </p>
 
 
 <hr class="section-divider">
