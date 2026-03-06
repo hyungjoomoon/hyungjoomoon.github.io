@@ -155,6 +155,11 @@ H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M.
 <p class="main-title"> RESEARCH EXPERIENCES</p>
 <ul class="publications-list main-text">
   <li>
+<strong>Postdoc</strong> (<span class="date-text">Mar. 2026 - </span>)
+<br>
+Intelligence Networking Lab (Chae Lab) (Prof. Chan-Byoung Chae), Yonsei University, South Korea
+  </li>
+  <li>
 <strong>Ph.D.</strong> (<span class="date-text">Mar. 2021 - Feb. 2026</span>)
 <br>
 Intelligence Networking Lab (Chae Lab) (Prof. Chan-Byoung Chae), Yonsei University, South Korea
