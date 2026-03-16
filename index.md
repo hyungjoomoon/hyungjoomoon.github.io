@@ -121,7 +121,7 @@ sitemap:
 <strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath, Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, Early Access.<br>
   </li>
   <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath, Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, Early Access.<br>
+<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath, Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
   </li>
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
