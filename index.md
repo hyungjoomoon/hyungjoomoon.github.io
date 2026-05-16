@@ -115,10 +115,10 @@ sitemap:
 <p class="main-title"> JOURNAL/MAGAZINE PAPERS</p>
 <ul class="publications-list main-text">
   <li>
-<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath, Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, Accepted.<br>
+<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath, Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
   </li>
   <li>
-<strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath, Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, Early Access.<br>
+<strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath, Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 25, pp. 4358-4373, Jan. 2026.<br>
   </li>
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath, Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
