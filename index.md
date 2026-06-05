@@ -114,7 +114,7 @@ sitemap:
     list-style: none;
     text-align: center;
     font-weight: 500;
-    color: #2d2d2d;
+    color: #242424;
     margin: 1.6em 0 0.8em;
     letter-spacing: 0.04em;
   }
