@@ -115,13 +115,25 @@ sitemap:
 <p class="main-title"> JOURNAL/MAGAZINE PAPERS</p>
 <ul class="publications-list main-text">
   <li>
-<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath, Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
+<span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
   </li>
   <li>
-<strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath, Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 25, pp. 4358-4373, Jan. 2026.<br>
+<span style="color: #808080;"><strong>H.-J. Moon</strong>, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae, "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation," submitted.<br></span>
   </li>
   <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath, Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
+<span style="color: #808080;"><strong>H.-J. Moon</strong>, H. Yoo, S. Yang, K. S. Kim, and C.-B. Chae, "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation," submitted.<br></span>
+  </li>
+  <li>
+<span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," submitted.<br></span>
+  </li>
+  <li>
+<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
+  </li>
+  <li>
+<strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 25, pp. 4358-4373, Jan. 2026.<br>
+  </li>
+  <li>
+<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
   </li>
   <li>
 <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
