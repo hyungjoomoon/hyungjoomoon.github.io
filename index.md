@@ -109,55 +109,95 @@ sitemap:
 
 
 
+<style>
+  .pub-year {
+    list-style: none;
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+    margin: 1.6em 0 0.8em;
+    letter-spacing: 0.04em;
+  }
+
+  .pub-year::before,
+  .pub-year::after {
+    content: "";
+    display: inline-block;
+    width: 3em;
+    height: 1px;
+    background: #ccc;
+    vertical-align: middle;
+    margin: 0 0.8em;
+  }
+</style>
 
 <hr class="section-divider">
 
 <p class="main-title"> JOURNAL/MAGAZINE PAPERS</p>
-<ul class="publications-list main-text">
-  <li>
-<span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
-  </li>
-  <li>
-<span style="color: #808080;"><strong>H.-J. Moon</strong>, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae, "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation," submitted.<br></span>
-  </li>
-  <li>
-<span style="color: #808080;"><strong>H.-J. Moon</strong>, H. Yoo, S. Yang, K. S. Kim, and C.-B. Chae, "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation," submitted.<br></span>
-  </li>
-  <li>
-<span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," submitted.<br></span>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 25, pp. 4358-4373, Jan. 2026.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Networks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218-233, Jan. 2025.<br>
-  </li>
-  <li>
-Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 62, no. 3, pp. 32-38, Mar. 2024.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, C.-B. Chae, and M.-S. Alouini, "Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications with Pointing Errors," <em class="journal-title">IEEE Trans. Veh. Technol.</em>, vol. 72, no. 8, pp. 10982-10987, Aug. 2023.<br>
-  </li>
-  <li>
-H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M. Chung, S.-K. Han, C.-B. Chae, and M.-S. Alouini, "Free-Space Optical Communications for 6G-enabled Long-Range Wireless Networks: Challenges, Opportunities, and Prototype Validation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 61, no. 4, pp. 116-121, Apr. 2023.<br>
-  </li>
-  <li>
-<strong>H.-J. Moon</strong>, H.-B. Jeon, and C.-B. Chae "RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications," <em class="journal-title">IEEE Wireless Commun. Lett.</em>, vol. 11, no. 2, pp. 240-244, Feb. 2022.<br>
-  </li>
-</ul>
 
+<ul class="publications-list main-text">
+
+  <li class="pub-year">SUBMITTED</li>
+
+  <li>
+    <span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
+  </li>
+  <li>
+    <span style="color: #808080;"><strong>H.-J. Moon</strong>, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae, "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation," submitted.<br></span>
+  </li>
+  <li>
+    <span style="color: #808080;"><strong>H.-J. Moon</strong>, H. Yoo, S. Yang, K. S. Kim, and C.-B. Chae, "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation," submitted.<br></span>
+  </li>
+  <li>
+    <span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," submitted.<br></span>
+  </li>
+
+  <li class="pub-year">2026</li>
+
+  <li>
+    <strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
+  </li>
+  <li>
+    <strong>H.-J. Moon</strong>, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath Jr., "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 25, pp. 4358-4373, Jan. 2026.<br>
+  </li>
+
+  <li class="pub-year">2025</li>
+
+  <li>
+    <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and R. W. Heath Jr., "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 63, no. 11, pp. 76-82, Nov. 2025.<br>
+  </li>
+  <li>
+    <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization," <em class="journal-title">IEEE Trans. Wireless Commun.</em>, vol. 24, no. 7, pp. 5723-5737, Jul. 2025.<br>
+  </li>
+  <li>
+    <strong>H.-J. Moon</strong> and C.-B. Chae, "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Networks," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 43, no. 1, pp. 218-233, Jan. 2025.<br>
+  </li>
+
+  <li class="pub-year">2024</li>
+
+  <li>
+    Y. Kim, <strong>H.-J. Moon</strong>, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae, "A State-of-the-art Survey on Full-duplex Network Design," <em class="journal-title">Proc. IEEE</em>, vol. 112, no. 5, pp. 463-486, May 2024.<br>
+  </li>
+  <li>
+    <strong>H.-J. Moon</strong>, C.-B. Chae, K.-K. Wong, and M.-S. Alouini, "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 62, no. 3, pp. 32-38, Mar. 2024.<br>
+  </li>
+
+  <li class="pub-year">2023</li>
+
+  <li>
+    <strong>H.-J. Moon</strong>, C.-B. Chae, and M.-S. Alouini, "Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications with Pointing Errors," <em class="journal-title">IEEE Trans. Veh. Technol.</em>, vol. 72, no. 8, pp. 10982-10987, Aug. 2023.<br>
+  </li>
+  <li>
+    H.-B. Jeon, S.-M. Kim, <strong>H.-J. Moon</strong>, D.-H. Kwon, J.-W. Lee, J.-M. Chung, S.-K. Han, C.-B. Chae, and M.-S. Alouini, "Free-Space Optical Communications for 6G-enabled Long-Range Wireless Networks: Challenges, Opportunities, and Prototype Validation," <em class="journal-title">IEEE Commun. Mag.</em>, vol. 61, no. 4, pp. 116-121, Apr. 2023.<br>
+  </li>
+
+  <li class="pub-year">2022</li>
+
+  <li>
+    <strong>H.-J. Moon</strong>, H.-B. Jeon, and C.-B. Chae "RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications," <em class="journal-title">IEEE Wireless Commun. Lett.</em>, vol. 11, no. 2, pp. 240-244, Feb. 2022.<br>
+  </li>
+
+</ul>
 
 
 
