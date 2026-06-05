@@ -113,7 +113,7 @@ sitemap:
   .pub-year {
     list-style: none;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     color: #2d2d2d;
     margin: 1.6em 0 0.8em;
     letter-spacing: 0.04em;
