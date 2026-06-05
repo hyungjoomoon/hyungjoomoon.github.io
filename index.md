@@ -115,7 +115,7 @@ sitemap:
 <p class="main-title"> JOURNAL/MAGAZINE PAPERS</p>
 <ul class="publications-list main-text">
   <li>
-<span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
+<span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
   </li>
   <li>
 <span style="color: #808080;"><strong>H.-J. Moon</strong>, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae, "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation," submitted.<br></span>
