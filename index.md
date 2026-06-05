@@ -119,16 +119,6 @@ sitemap:
     letter-spacing: 0.04em;
   }
 
-  .pub-year::before,
-  .pub-year::after {
-    content: "";
-    display: inline-block;
-    width: 2em;
-    height: 1px;
-    background: #ccc;
-    vertical-align: middle;
-    margin: 0 0.8em;
-  }
 </style>
 
 <hr class="section-divider">
