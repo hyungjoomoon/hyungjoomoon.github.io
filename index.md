@@ -113,8 +113,8 @@ sitemap:
   .pub-year {
     list-style: none;
     text-align: center;
-    font-weight: 700;
-    color: #555;
+    font-weight: 400;
+    color: #2d2d2d;
     margin: 1.6em 0 0.8em;
     letter-spacing: 0.04em;
   }
@@ -123,7 +123,7 @@ sitemap:
   .pub-year::after {
     content: "";
     display: inline-block;
-    width: 3em;
+    width: 2em;
     height: 1px;
     background: #ccc;
     vertical-align: middle;
