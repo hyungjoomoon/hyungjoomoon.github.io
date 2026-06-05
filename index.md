@@ -137,7 +137,7 @@ sitemap:
 
 <ul class="publications-list main-text">
 
-  <li class="pub-year">SUBMITTED</li>
+  <li class="pub-year">2026</li>
 
   <li>
     <span style="color: #808080;"><strong>H.-J. Moon</strong>, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae, "Channel2World: A Wireless Foundation Model for RF Environment Representation," submitted.<br></span>
@@ -151,9 +151,6 @@ sitemap:
   <li>
     <span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," submitted.<br></span>
   </li>
-
-  <li class="pub-year">2026</li>
-
   <li>
     <strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
   </li>
