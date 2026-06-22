@@ -139,7 +139,10 @@ sitemap:
     <span style="color: #808080;"><strong>H.-J. Moon</strong>, H. Yoo, S. Yang, K. S. Kim, and C.-B. Chae, "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation," submitted.<br></span>
   </li>
   <li>
-    <span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," submitted.<br></span>
+    <span style="color: #808080;">H.-B. Jeon, <strong>H.-J. Moon</strong>, Y. Kim, "Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers," submitted.<br></span>
+  </li>
+  <li>
+    <span style="color: #808080;"><strong>H.-J. Moon</strong>, S. Park, C.-B. Chae, and R. W. Heath Jr., "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks," under revision.<br></span>
   </li>
   <li>
     <strong>H.-J. Moon</strong>, J. Park, C.-B. Chae, and R. W. Heath Jr., "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis," <em class="journal-title">IEEE J. Sel. Areas Commun.</em>, vol. 44, pp. 3444-3458, Jan. 2026.<br>
