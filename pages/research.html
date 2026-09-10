@@ -27,7 +27,7 @@ description: AI-native wireless, latent communications for edge intelligence, wi
       {% assign pub = site.data.publications | where: 'id', id | first %}
       {% if pub %}
       <div class="related-work">
-        {% if pub.url %}<a href="{{ pub.url | relative_url }}">{{ pub.title }} <span aria-hidden="true">↗</span><span class="related-status">{{ pub.venue_short | default: pub.venue }}, {{ pub.year }}</span></a>
+        {% if pub.paper_url %}<a href="{{ pub.paper_url | escape }}" target="_blank" rel="noopener noreferrer">{{ pub.title }} <span aria-hidden="true">↗</span><span class="related-status">{{ pub.venue_short | default: pub.venue }}, {{ pub.year }}</span></a>
         {% else %}<a href="{{ '/publications/' | relative_url }}?type=progress">{{ pub.title }} <span class="related-status">{{ pub.status }}</span></a>{% endif %}
       </div>
       {% endif %}

@@ -2,4 +2,20 @@
 layout: null
 ---
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"><channel><title>WAISL — Wireless AI Systems Lab</title><link>{{ site.url | xml_escape }}</link><description>{{ site.description | xml_escape }}</description>{% for post in site.posts %}<item><title>{{ post.title | xml_escape }}</title><link>{{ post.url | absolute_url | xml_escape }}</link><guid>{{ post.url | absolute_url | xml_escape }}</guid><pubDate>{{ post.date | date_to_rfc822 }}</pubDate><description>{{ post.abstract | xml_escape }}</description></item>{% endfor %}</channel></rss>
+<rss version="2.0">
+  <channel>
+    <title>WAISL — Wireless AI Systems Lab</title>
+    <link>{{ site.url | xml_escape }}</link>
+    <description>{{ site.description | xml_escape }}</description>
+    {% for post in site.posts %}
+    {% assign pub = site.data.publications | where: 'id', post.slug | first %}
+    <item>
+      <title>{{ pub.title | default: post.title | xml_escape }}</title>
+      <link>{{ pub.paper_url | default: post.paperlink | xml_escape }}</link>
+      <guid isPermaLink="false">{{ post.url | absolute_url | xml_escape }}</guid>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <description>{{ post.abstract | xml_escape }}</description>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
