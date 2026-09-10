@@ -15,7 +15,7 @@
   detail: We study fully deep-learning-driven signaling for edge intelligence in mobile ad hoc networks. This direction investigates learned transmitters and receivers that exchange latent representations under tight latency constraints, noise, and channel fluctuations. The emphasis is on the signaling and information exchanged between devices, complementing the radio and network control problems studied in AI-native wireless.
   tags: [Learned signaling, Edge intelligence, Mobile ad hoc networks]
   visual: latent
-  publications: []
+  publications: [manuscript-6]
 - id: digital-twins
   number: "03"
   title: Wireless digital twins

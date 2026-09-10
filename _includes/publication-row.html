@@ -1,5 +1,9 @@
 <article class="publication-row" data-publication data-type="{{ include.pub.type }}" data-year="{{ include.pub.year }}">
   <div class="publication-meta"><span class="mono">{{ include.pub.year }}</span><span class="pub-kind {% if include.pub.type == 'progress' %}pub-pending{% endif %}">{% if include.pub.type == 'progress' %}{{ include.pub.status }}{% elsif include.pub.type == 'conference' %}Conference{% else %}Journal{% endif %}</span></div>
-  <div class="publication-content"><h3>{% if include.pub.url %}<a href="{{ include.pub.url | relative_url }}">{{ include.pub.title | escape }}</a>{% else %}{{ include.pub.title | escape }}{% endif %}</h3><p class="publication-authors">{{ include.pub.authors | escape | replace: 'H.-J. Moon', '<strong>H.-J. Moon</strong>' }}</p><p class="publication-venue">{{ include.pub.citation | escape }}</p></div>
+  <div class="publication-content">
+    <h3>{% if include.pub.url %}<a href="{{ include.pub.url | relative_url }}">{{ include.pub.title | escape }}</a>{% else %}{{ include.pub.title | escape }}{% endif %}</h3>
+    {% if include.pub.authors %}<p class="publication-authors">{{ include.pub.authors | escape | replace: 'H.-J. Moon', '<strong>H.-J. Moon</strong>' }}</p>{% endif %}
+    {% if include.pub.citation %}<p class="publication-venue">{{ include.pub.citation | escape }}</p>{% endif %}
+  </div>
   {% if include.pub.url %}<a class="publication-arrow" href="{{ include.pub.url | relative_url }}" aria-label="Read {{ include.pub.title | escape }}"><span aria-hidden="true">↗</span></a>{% endif %}
 </article>
