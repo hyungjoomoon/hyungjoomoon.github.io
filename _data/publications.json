@@ -5,6 +5,8 @@
     "type": "progress",
     "status": "Submitted",
     "title": "Channel2World: A Wireless Foundation Model for RF Environment Representation",
+    "paper_url": "https://arxiv.org/abs/2608.17544",
+    "preprint": true,
     "authors": "H.-J. Moon, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae",
     "citation": "submitted."
   },
@@ -41,6 +43,8 @@
     "type": "progress",
     "status": "Under revision",
     "title": "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks",
+    "paper_url": "https://arxiv.org/abs/2608.17612",
+    "preprint": true,
     "authors": "H.-J. Moon, S. Park, C.-B. Chae, and R. W. Heath Jr.",
     "citation": "under revision."
   },

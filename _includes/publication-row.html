@@ -1,4 +1,4 @@
-<article class="publication-row" data-publication data-type="{{ include.pub.type }}" data-year="{{ include.pub.year }}">
+<article class="publication-row" data-publication data-type="{{ include.pub.type }}" data-preprint="{{ include.pub.preprint | default: false }}" data-year="{{ include.pub.year }}">
   <div class="publication-meta"><span class="mono">{{ include.pub.year }}</span><span class="pub-kind {% if include.pub.type == 'progress' %}pub-pending{% endif %}">{% if include.pub.type == 'progress' %}{{ include.pub.status }}{% elsif include.pub.type == 'conference' %}Conference{% else %}Journal{% endif %}</span></div>
   <div class="publication-content">
     <h3>{% if include.pub.paper_url %}<a href="{{ include.pub.paper_url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.pub.title | escape }}</a>{% else %}{{ include.pub.title | escape }}{% endif %}</h3>

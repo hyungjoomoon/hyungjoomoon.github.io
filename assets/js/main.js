@@ -41,7 +41,8 @@
       const term = query.value.trim().toLocaleLowerCase();
       let visible = 0;
       rows.forEach((row) => {
-        const match = (type === 'all' || row.dataset.type === type) && (year.value === 'all' || row.dataset.year === year.value) && row.textContent.toLocaleLowerCase().includes(term);
+        const matchesType = type === 'all' || (type === 'preprint' ? row.dataset.preprint === 'true' : row.dataset.type === type);
+        const match = matchesType && (year.value === 'all' || row.dataset.year === year.value) && row.textContent.toLocaleLowerCase().includes(term);
         row.hidden = !match;
         if (match) visible++;
       });

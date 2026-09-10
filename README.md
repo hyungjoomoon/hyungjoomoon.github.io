@@ -13,7 +13,7 @@ Open http://127.0.0.1:4000. Build with `bundle exec jekyll build`.
 
 ## Content
 
-- `_data/publications.json`: publication records, authors, citations, statuses, and links. `venue_short` supplies compact journal names in research-area related work. `featured: true` selects homepage papers.
+- `_data/publications.json`: publication records, authors, citations, statuses, and links. `venue_short` supplies compact journal names in research-area related work. `featured: true` selects homepage papers. `preprint: true` adds a paper to the Preprints filter independently of its submission status; `paper_url` supplies its direct link.
 - `_posts/`: legacy paper URLs redirect straight to the external paper using `_layouts/post.html`; no paper detail pages are displayed.
 - `_data/news.json`: news in newest-first order.
 - `_data/research.yml`: research directions and related publication IDs.
