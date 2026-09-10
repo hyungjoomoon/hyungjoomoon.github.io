@@ -1,13 +1,5 @@
 ---
 layout: default
 ---
-<br>
-<br>
-{% include post/title.html %}
-
-{% include post/splash_image.html %}
-
-<br>
-<div class="post_wrapper">
-    {{ content }}
-</div>
+{% assign pub = site.data.publications | where: 'id', page.slug | first %}
+<article class="container paper-page"><a class="back-link" href="{{ '/publications/' | relative_url }}">← All publications</a><header class="paper-header"><p class="eyebrow">{% if pub.type == 'conference' %}CONFERENCE PAPER{% else %}JOURNAL ARTICLE{% endif %} / {% if pub.year %}{{ pub.year }}{% else %}{{ page.date | date: '%Y' }}{% endif %}</p><h1>{{ pub.title | default: page.title | escape }}</h1><p class="paper-authors">{{ pub.authors | default: page.author.name | strip_html | escape | replace: 'H.-J. Moon', '<strong>H.-J. Moon</strong>' }}</p><p class="publication-venue">{{ pub.citation | default: page.journal | strip_html | escape }}</p><a class="button button-primary" href="{{ page.paperlink }}" target="_blank" rel="noopener noreferrer">Read the paper <span aria-hidden="true">↗</span></a></header><div class="paper-body"><section><h2>Abstract</h2><p>{{ page.abstract | replace: '$X$', 'X' | replace: 'MAP-$X$', 'MAP-X' }}</p><div class="research-tags">{% for tag in page.tags %}<span>{{ tag }}</span>{% endfor %}</div></section>{% if page.splash_img_source %}<figure><img src="{{ page.splash_img_source | relative_url }}" alt="{{ page.splash_img_caption | escape }}" loading="lazy"><figcaption>{{ page.splash_img_caption }}</figcaption></figure>{% endif %}</div></article>

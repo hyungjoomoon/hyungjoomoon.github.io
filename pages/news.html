@@ -1,0 +1,11 @@
+---
+title: News
+section: news
+permalink: /news/
+---
+<section class="page-intro container">
+  <p class="eyebrow">WAISL · DGIST</p>
+  <h1>News</h1>
+  <p>Publication announcements, awards, and research appointments.</p>
+</section>
+<section class="container news-archive"><div class="news-archive-list">{% for item in site.data.news %}<article class="news-row"><div class="news-meta"><time>{{ item.date }}</time><span class="news-category">{{ item.category }}</span></div><p>{{ item.text | escape }}</p>{% if item.date == 'Dec. 2025' %}<figure class="news-photo"><img src="{{ '/assets/img/4mt_photo.png' | relative_url }}" alt="Hyung-Joo Moon at the IEEE ComSoc Four-Minute Competition in Taipei" loading="lazy"><figcaption>IEEE ComSoc Four-Minute Competition · Taipei, December 2025</figcaption></figure>{% endif %}</article>{% endfor %}</div><aside class="news-sidebar"><span class="eyebrow">RESEARCH AT WAISL</span><h2>Research areas</h2><p>Read about our work on AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks.</p><a class="text-link" href="{{ '/research/' | relative_url }}">Research overview <span aria-hidden="true">↗</span></a></aside></section>

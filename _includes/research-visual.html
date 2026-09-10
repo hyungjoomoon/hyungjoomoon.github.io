@@ -1,0 +1,6 @@
+<div class="research-visual visual-{{ include.type }}" aria-hidden="true">
+{% if include.type == 'array' %}<div class="antenna-grid">{% for i in (1..25) %}<i></i>{% endfor %}</div><span class="array-wave wave-one"></span><span class="array-wave wave-two"></span><span class="array-wave wave-three"></span>
+{% elsif include.type == 'twin' %}<div class="twin-grid twin-back"></div><div class="twin-grid twin-front"></div><span class="twin-point"></span>
+{% elsif include.type == 'latent' %}<div class="latent-device device-left"></div><div class="latent-channel"><i></i><i></i><i></i><i></i><i></i></div><div class="latent-device device-right"></div>
+{% else %}<div class="orbit-ring ring-one"></div><div class="orbit-ring ring-two"></div><div class="orbit-core"></div><span class="orbit-satellite"></span>{% endif %}
+</div>

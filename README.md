@@ -1,52 +1,31 @@
-# Pudhina Fresh
-A minimal yet feature-rich Jekyll theme made for personal websites and blogs.
+# WAISL — Wireless AI Systems Lab
 
-Live Demo: [ritijjain.github.io/pudhina-fresh](https://ritijjain.github.io/pudhina-fresh), [ritijjain.com](https://ritijjain.com/)
+The WAISL homepage at DGIST. A custom, responsive Jekyll site for GitHub Pages, using self-hosted Geist Sans and Geist Mono. Body text uses weight 300.
 
-* Minimal design based on Bootstrap 4.
-* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
-* Categorize posts and projects using tags and view them on tag pages.
-* Dark mode (powered by darkmode.js)
-* 95+ Google PageSpeed Insight score 🔥 – [Test it yourself!](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop)
+## Preview
 
-![Demo image 1](/assets/img/dis1.png)
-![Demo image 2](/assets/img/dis2.png)
-![Demo image 3](/assets/img/dis3.png)
-![Demo image 4](/assets/img/dis4.png)
-![Demo image 5](/assets/img/dis5.png)
+```sh
+bundle install
+bundle exec jekyll serve --host 127.0.0.1
+```
 
-## Features
-### Everything From [Pudhina](https://github.com/knhash/Pudhina)
-* Simple, minimal and clean
-* Blog posts categorized (Pudhina Fresh uses tags instead)
-* Responsive
-* Syntax Highlighter (using highlight.js).
-* Font-Awesome Icons.
-* Glitchy 404 page
+Open http://127.0.0.1:4000. Build with `bundle exec jekyll build`.
 
-### Plus Much More
-* Minimal design based on Bootstrap 4.
-* Support for Bootstrap elements and bootstrap compatible styles.
-* Responsive mobile friendly design.
-* Showcase your projects on the masonry style project page with collapsible cards – [demo](https://ritijjain.github.io/pudhina-fresh/projects/).
-* Categorize posts and projects using tags and view them on tag pages.
-* Customizable post meta data for individual posts – tags, published date, updated date, author, author link.
-* Create redirect pages using the `_layouts/redirect` template.
-* Support for Disqus comments and Google Analytics.
-* Redesigned table, heading, subheading, link, quote, and text styles.
-* Dark mode (powered by darkmode.js)
-* Just as fast as the original – 95+ [Google PageSpeed Insights score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fritijjain.github.io%2Fpudhina-fresh&tab=desktop).
+## Content
 
-## Docs
-Read the [docs post](https://ritijjain.github.io/pudhina-fresh/2020/07/01/docs.html).
+- `_data/publications.json`: publication records, authors, citations, statuses, and links. `venue_short` supplies compact journal names in research-area related work. `featured: true` selects homepage papers.
+- `_posts/`: existing paper detail pages, abstracts, and figures. Their URLs are preserved.
+- `_data/news.json`: news in newest-first order.
+- `_data/research.yml`: research directions and related publication IDs.
+- `_data/people.yml`: role, name, degree, portrait, and short research interests for each member; future members remain explicit placeholders.
+- `pages/people.html`: one column of compact, uniform member cards, without profile links or biographies. Former profile URLs redirect to People.
+- `_config.yml`: lab identity, contact email, profile links, and the shared `pi_portrait` path.
+- `assets/css/main.css` and `assets/js/main.js`: design and progressive interactions.
 
-Feel free to open a new issue for questions and comments.
+## First-draft content notes
 
-## Credits and License
-Pudhia Fresh is built on top of [Pudhina](https://github.com/knhash/Pudhina) by [Shashank S](https://github.com/knhash).
+Research content, publication statuses, dates, and contact information are carried over from the original homepage. The latent communications direction and the 2026 PI portrait were supplied in the redesign feedback. The four research areas are ordered as AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks. WAISL, DGIST affiliation, and the PI role follow the redesign brief. A DGIST email, department, office, formal appointment title/date, and specific recruitment availability were not provided and have not been invented. Detailed personal biographies and education histories are not displayed.
 
-[MIT License](https://github.com/ritijjain/pudhina-fresh/blob/master/LICENSE)
+Publication history includes pre-WAISL work. The original homepage's final citations take precedence over older paper-page metadata; existing paper URLs stay intact. The two conference papers are also retained.
 
-## Stargazers Over Time
-
-[![Stargazers over time](https://starchart.cc/ritijjain/pudhina-fresh.svg)](https://starchart.cc/ritijjain/pudhina-fresh)
+Geist font files are distributed under the SIL Open Font License; see `assets/fonts/OFL.txt` and https://github.com/vercel/geist-font. Original theme license remains in `LICENSE`.

@@ -1,0 +1,36 @@
+- id: wireless-ai
+  number: "01"
+  title: AI-native wireless
+  subtitle: Learning-based radio control and network operation.
+  description: Site-specific AI for channel estimation, beam management, and cross-layer control in wireless networks.
+  detail: We investigate how machine learning can improve the operation of wireless infrastructure. Our work covers online channel synthesis, learning-based beam management, distributed MIMO, and cross-layer intelligence for AI-RAN architectures. The focus is on estimating channels and controlling radio resources under practical system constraints.
+  tags: [AI-RAN, Massive MIMO, Beam management]
+  visual: array
+  publications: [202601jsac, manuscript-2]
+- id: latent-communications
+  number: "02"
+  title: Latent communications for edge intelligence
+  subtitle: End-to-end learned signaling between mobile edge devices.
+  description: Deep-learning-driven signaling for time-critical mobile ad hoc communication over noisy, time-varying channels.
+  detail: We study fully deep-learning-driven signaling for edge intelligence in mobile ad hoc networks. This direction investigates learned transmitters and receivers that exchange latent representations under tight latency constraints, noise, and channel fluctuations. The emphasis is on the signaling and information exchanged between devices, complementing the radio and network control problems studied in AI-native wireless.
+  tags: [Learned signaling, Edge intelligence, Mobile ad hoc networks]
+  visual: latent
+  publications: []
+- id: digital-twins
+  number: "03"
+  title: Wireless digital twins
+  subtitle: RF environment modeling and physical-system calibration.
+  description: RF environment representations and calibrated digital models for learning and evaluating wireless systems.
+  detail: Our research investigates RF environment representations and phase-coherent digital twin calibration. We combine channel modeling, foundation models, theoretical analysis, and prototype validation to connect simulation with physical wireless systems. These representations also support site-specific learning and evaluation of wireless algorithms.
+  tags: [RF foundation models, Channel modeling, Prototypes]
+  visual: twin
+  publications: [manuscript-1, manuscript-3]
+- id: connected-skies
+  number: "04"
+  title: Non-terrestrial networks
+  subtitle: Satellite, UAV, and high-altitude platform communications.
+  description: Resource allocation, wide-area sensing, and optical wireless links across ground, air, and space.
+  detail: Our broader research includes resource allocation and wireless links in terrestrial and non-terrestrial networks. Previous and ongoing work spans satellite-assisted urban air mobility, massive field-data mapping with HAPS, and pointing and trajectory optimization for free-space optical communications.
+  tags: [Satellite & UAV, HAPS, Optical wireless]
+  visual: orbit
+  publications: [2025eatwc, 202501jsac, 2025twc]

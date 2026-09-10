@@ -1,0 +1,30 @@
+---
+title: People
+section: people
+permalink: /people/
+---
+<section class="page-intro container">
+  <p class="eyebrow">WAISL · DGIST</p>
+  <h1>People</h1>
+  <p>Lab members and future student researchers at the Wireless AI Systems Lab, DGIST.</p>
+</section>
+<section class="container people-section" aria-label="Lab members">
+  <div class="member-list">
+    {% for member in site.data.people %}
+    <article class="member-card{% if member.placeholder %} member-placeholder{% endif %}">
+      {% if member.portrait %}
+      <img class="member-photo" src="{{ member.portrait | relative_url }}" width="827" height="1063" alt="{{ member.name | escape }}">
+      {% else %}
+      <div class="member-photo member-photo-placeholder" aria-hidden="true"><span>+</span></div>
+      {% endif %}
+      <div class="member-info">
+        <p class="eyebrow">{{ member.role | upcase }}</p>
+        <h2>{{ member.name | escape }}</h2>
+        <p class="member-degree">{{ member.degree | escape }}</p>
+        <p class="member-interest"><span>Research interest:</span> {{ member.research_interest | escape }}</p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</section>
+{% include join-banner.html %}

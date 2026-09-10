@@ -1,0 +1,284 @@
+[
+  {
+    "id": "manuscript-1",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Channel2World: A Wireless Foundation Model for RF Environment Representation",
+    "authors": "H.-J. Moon, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae",
+    "citation": "submitted."
+  },
+  {
+    "id": "manuscript-2",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation",
+    "authors": "H.-J. Moon, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae",
+    "citation": "submitted."
+  },
+  {
+    "id": "manuscript-3",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation",
+    "authors": "H.-J. Moon, H. Yoo, S. Yang, K. S. Kim, and C.-B. Chae",
+    "citation": "submitted."
+  },
+  {
+    "id": "manuscript-4",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers",
+    "authors": "H.-B. Jeon, H.-J. Moon, Y. Kim",
+    "citation": "submitted."
+  },
+  {
+    "id": "manuscript-5",
+    "year": 2026,
+    "type": "progress",
+    "status": "Under revision",
+    "title": "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks",
+    "authors": "H.-J. Moon, S. Park, C.-B. Chae, and R. W. Heath Jr.",
+    "citation": "under revision."
+  },
+  {
+    "id": "202601jsac",
+    "year": 2026,
+    "type": "journal",
+    "status": "Published",
+    "title": "AI-Based Beam Management for FR3 FDD MIMO via Online Channel Synthesis",
+    "authors": "H.-J. Moon, J. Park, C.-B. Chae, and R. W. Heath Jr.",
+    "citation": "IEEE J. Sel. Areas Commun., vol. 44, pp. 3444-3458, Jan. 2026.",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/11359157",
+    "url": "/2026/01/01/202601jsac.html",
+    "image": "/assets/img/202601jsac_fig01.png",
+    "tags": [
+      "AIML",
+      "MIMO"
+    ],
+    "abstract": "Efficient channel estimation and beamforming in the upper mid-band spectrum pose a fundamental challenge for 6G base stations (BSs). This requires practical beam management techniques that account for the propagation characteristics of this frequency range and the increasing number of BS antennas. To address the channel estimation bottleneck in Frequency Division Duplex (FDD) systems, this paper proposes an integrated framework combining channel synthesis and AI-based beam management. We first introduce partial statistical reciprocity (PSR) by extending the concept of partial reciprocity into the statistical domain, enabling a novel model-based online channel synthesis method. The proposed approach uses uplink channel parameters collected during BS operation to generate synthetic downlink channels that reflect the spatial distribution of active user equipment (UE), enabling the creation of high-quality, site-specific datasets for AI training. Furthermore, we propose a joint optimization framework for scalable codebook design and downlink channel estimation. A U-Net Transformer model is trained to estimate full beam-domain channel state information (CSI) using a single snapshot of uplink CSI and feedback from codebook-based beam sweeping. The model iteratively updates the codebook via backpropagation to align with current UE distributions and channel conditions, while channel estimation is performed through forward inference. The proposed AI-based framework achieves accurate channel reconstruction with minimal feedback, offering a scalable and practical solution for 6G spatial multiple access in the upper mid-band FDD system.",
+    "featured": true,
+    "venue_short": "IEEE JSAC"
+  },
+  {
+    "id": "2025eatwc",
+    "year": 2026,
+    "type": "journal",
+    "status": "Published",
+    "title": "MAP-X: Massive Field Data Processing for Real-Time Wide-Area Mapping Using High-Altitude Platforms with MIMO",
+    "authors": "H.-J. Moon, H. Yoo, K. Huang, C.-B. Chae, and R. W. Heath Jr.",
+    "citation": "IEEE Trans. Wireless Commun., vol. 25, pp. 4358-4373, Jan. 2026.",
+    "venue": "IEEE Transactions on Wireless Communications",
+    "paper_url": "https://ieeexplore.ieee.org/document/11176920",
+    "url": "/2025/09/01/2025eatwc.html",
+    "image": "/assets/img/202508eatwc_fig01.png",
+    "tags": [
+      "NTN",
+      "WSN",
+      "MIMO",
+      "AIML"
+    ],
+    "abstract": "In this paper, we propose Massive Aerial Processing for $X$ (MAP-$X$), an innovative framework for reconstructing spatially correlated ground information, where $X$ represents arbitrary types of geographically referenced sensing data. MAP-$X$ leverages distributed sensors and a high altitude platform (HAP) equipped with a planar antenna array that captures radio frequency signals transmitted simultaneously from ground sensors. MAP-$X$ incorporates two key techniques that provide significant advantages over conventional terrestrial wireless sensor network (WSN)-based methods. First, MAP-$X$ enables all sensors to transmit concurrently within a single subframe, resulting in the random superposition of signals at the receiver. This non-orthogonal transmission approach enhances estimation accuracy as the number of devices increases, addressing the limitations of restricted orthogonal channel availability. Second, MAP-$X$ introduces a novel waveform design that enhances angular resolution at the receiver. Combined with linear and machine learning (ML)-based post-processing techniques implemented at the HAP, this approach significantly improves the accuracy of field-data reconstruction. This paper details the signal model, waveform design, and efficient post-processing techniques underlying MAP-$X$. Simulation results demonstrate that our framework surpasses the upper bound performance of orthogonal data collection combined with optimal covariance-based signal reconstruction, achieving superior latency reduction and estimation accuracy.",
+    "featured": true,
+    "venue_short": "IEEE TWC"
+  },
+  {
+    "id": "2025eacommag",
+    "year": 2025,
+    "type": "journal",
+    "status": "Published",
+    "title": "AI-Enhanced Wide-Area Data Imaging via Massive Non-Orthogonal Direct Device-to-HAPS Transmission",
+    "authors": "H.-J. Moon, C.-B. Chae, K.-K. Wong, and R. W. Heath Jr.",
+    "citation": "IEEE Commun. Mag., vol. 63, no. 11, pp. 76-82, Nov. 2025.",
+    "venue": "IEEE Communications Magazine",
+    "paper_url": "https://arxiv.org/abs/2507.09895",
+    "url": "/2025/08/01/2025eacommag.html",
+    "image": "/assets/img/2025eacommag_fig02.png",
+    "tags": [
+      "NTN",
+      "WSN",
+      "MIMO",
+      "AIML"
+    ],
+    "abstract": "Massive Aerial Processing for X (MAP-X) is an innovative framework for reconstructing spatially correlated ground data, such as environmental or industrial measurements distributed across a wide area, into data maps using a single high altitude pseudo-satellite (HAPS) and a large number of distributed sensors. With subframe-level data reconstruction, MAP-X provides a transformative solution for latency-sensitive IoT applications. This article explores two distinct approaches for AI integration in the post-processing stage of MAP-X. The model-driven pointwise estimation approach enables real-time, adaptive reconstruction through online training, while the end-to-end image reconstruction approach improves reconstruction accuracy through offline training with non-real-time data. Simulation results show that both approaches significantly outperform the conventional inverse discrete Fourier transform (IDFT)-based linear post-processing method. Furthermore, to enable AI-enhanced MAP-X, we propose a ground-HAPS cooperation framework, where terrestrial stations collect, process, and relay training data to the HAPS. With its enhanced capability in reconstructing field data, AI-enhanced MAP-X is applicable to various real-world use cases, including disaster response and network management.",
+    "venue_short": "IEEE ComMag"
+  },
+  {
+    "id": "2025twc",
+    "year": 2025,
+    "type": "journal",
+    "status": "Published",
+    "title": "A Generalized Pointing Error Model for FSO Links with Fixed-Wing UAVs for 6G: Analysis and Trajectory Optimization",
+    "authors": "H.-J. Moon, C.-B. Chae, K.-K. Wong, and M.-S. Alouini",
+    "citation": "IEEE Trans. Wireless Commun., vol. 24, no. 7, pp. 5723-5737, Jul. 2025.",
+    "venue": "IEEE Transactions on Wireless Communications",
+    "paper_url": "https://ieeexplore.ieee.org/document/10927643",
+    "url": "/2025/07/01/2025twc.html",
+    "image": "/assets/img/2025eatwc_fig01.png",
+    "tags": [
+      "FSO",
+      "UAV"
+    ],
+    "abstract": "Free-space optical (FSO) communication is a promising solution to support wireless backhaul links in emerging 6G non-terrestrial networks. At the link level, pointing errors in FSO links can significantly impact capacity, making accurate modeling of these errors essential for both assessing and enhancing communication performance. In this paper, we introduce a novel model for FSO pointing errors in unmanned aerial vehicles (UAVs) that incorporates three-dimensional (3D) jitter, including roll, pitch, and yaw angle jittering. We derive a probability density function for the pointing error angle based on the relative position and posture of the UAV to the ground station. This model is then integrated into a trajectory optimization problem designed to maximize energy efficiency while meeting constraints on speed, acceleration, and elevation angle. Our proposed optimization method significantly improves energy efficiency by adjusting the UAV's flight trajectory to minimize exposure to directions highly affected by jitter. The simulation results emphasize the importance of using UAV-specific 3D jitter models in achieving accurate performance measurements and effective system optimization in FSO communication networks. Utilizing our generalized model, the optimized trajectories achieve up to 11.8 percent higher energy efficiency compared to those derived from conventional Gaussian pointing error models.",
+    "venue_short": "IEEE TWC"
+  },
+  {
+    "id": "202501jsac",
+    "year": 2025,
+    "type": "journal",
+    "status": "Published",
+    "title": "Cooperative Ground-Satellite Scheduling and Power Allocation for Urban Air Mobility Networks",
+    "authors": "H.-J. Moon and C.-B. Chae",
+    "citation": "IEEE J. Sel. Areas Commun., vol. 43, no. 1, pp. 218-233, Jan. 2025.",
+    "venue": "IEEE Journal on Selected Areas in Communications",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10680075",
+    "url": "/2025/01/01/202501jsac.html",
+    "image": "/assets/img/202501jsac_fig01.png",
+    "tags": [
+      "NTN",
+      "UAV",
+      "MIMO"
+    ],
+    "abstract": "In this paper, we investigate a multi-user downlink scheduling and power allocation strategy for urban air mobility (UAM) within a 6G non-terrestrial network (NTN) framework that integrates satellite and ground networks. We consider a system model involving multiple ground stations (GSs) and a single satellite, addressing the sum rate maximization problem with link-association, power, elevation angle, and minimum quality-of-service constraints. The proposed method initially segregates satellite-serviced users to reduce interference among the remaining GS-serviced users, taking into account the locations and movements of those UAMs. Subsequently, using a graph-theoretical approach, we convert the GS link association problem into a minimum-cost maximum-flow problem. In this process, we employ an analytical method involving polynomial approximations or a numerical method using integral approximation through the sum of time-sampled parameters. We then address the non-convex power allocation problem for scheduled links through iterative algorithms. The proposed scheduling and power allocation algorithms effectively manage interference in multi-UAM and multi-GS environments, and their performance is validated through extensive simulation results. Our study provides a comprehensive framework and strategy for efficient downlink transmission in future UAM operations, paving the way for novel applications in 6G NTN.",
+    "venue_short": "IEEE JSAC"
+  },
+  {
+    "id": "202405pieee",
+    "year": 2024,
+    "type": "journal",
+    "status": "Published",
+    "title": "A State-of-the-art Survey on Full-duplex Network Design",
+    "authors": "Y. Kim, H.-J. Moon, H. Yoo, B. Kim, K.-K. Wong, and C.-B. Chae",
+    "citation": "Proc. IEEE, vol. 112, no. 5, pp. 463-486, May 2024.",
+    "venue": "Proceedings of the IEEE",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10449676",
+    "url": "/2024/05/01/202405pieee.html",
+    "image": "/assets/img/202405pieee_fig01.png",
+    "tags": [
+      "Full-Duplex"
+    ],
+    "abstract": "Full-duplex (FD) technology is gaining popularity for integration into a wide range of wireless networks due to its demonstrated potential in recent studies. In contrast to half-duplex (HD) technology, the implementation of FD in networks necessitates considering internode interference (INI) from various network perspectives. When deploying FD technology in networks, several critical factors must be taken into account. These include self-interference (SI) and the requisite SI cancellation (SIC) processes, as well as the selection of multiple user equipment (UE) per time slot. In addition, INI, including cross-link interference (CLI) and intercell interference (ICI), becomes a crucial issue during concurrent uplink (UL) and downlink (DL) transmission and reception, similar to SI. Since most INIs are challenging to eliminate, a comprehensive investigation that covers radio resource control (RRC), medium access control (MAC), and the physical (PHY) layer is essential in the context of FD network design, rather than focusing on individual network layers and types. This article covers state-of-the-art studies, including protocols and documents from the third-generation partnership project (3GPP) for FD, MAC protocol, user scheduling, and CLI handling. The methods are also compared through a network-level system simulation based on 3-D ray tracing.",
+    "venue_short": "Proceedings of the IEEE"
+  },
+  {
+    "id": "202403commag",
+    "year": 2024,
+    "type": "journal",
+    "status": "Published",
+    "title": "Pointing-and-Acquisition for Optical Wireless in 6G: From Algorithms to Performance Evaluation",
+    "authors": "H.-J. Moon, C.-B. Chae, K.-K. Wong, and M.-S. Alouini",
+    "citation": "IEEE Commun. Mag., vol. 62, no. 3, pp. 32-38, Mar. 2024.",
+    "venue": "IEEE Communications Magazine",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10323407",
+    "url": "/2024/03/01/202403commag.html",
+    "image": "/assets/img/202403commag_fig01.png",
+    "tags": [
+      "FSO",
+      "UAV"
+    ],
+    "abstract": "The increasing demand for wireless communication services has led to the development of non-terrestrial networks, which enables various air and space applications. Free-space optical (FSO) communication is considered one of the essential technologies capable of connecting terrestrial and non-terrestrial layers. In this article, we analyze considerations and challenges for FSO communications between gateways and aircraft from a pointing-and-acquisition perspective. Based on the analysis, we first develop a baseline method that utilizes conventional devices and mechanisms. Furthermore, we propose an algorithm that combines angle of arrival (AoA) estimation through supplementary radio frequency (RF) links and beam tracking using retroreflectors. Through extensive simulations, we demonstrate that the proposed method offers superior performance in terms of link acquisition and maintenance.",
+    "venue_short": "IEEE ComMag"
+  },
+  {
+    "id": "202410ictc",
+    "year": 2024,
+    "type": "conference",
+    "status": "Published",
+    "title": "Resource Allocation for Satellite-Integrated Urban Air Mobility Networks in 6G",
+    "authors": "H.-J. Moon, C.-B. Chae",
+    "citation": "Proc. International Conference on Information and Communication Technology Convergence (ICTC), 2024.",
+    "venue": "Proc. International Conference on Information and Communication Technology Convergence (ICTC)",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10826974",
+    "url": "/2024/10/01/202410ictc.html",
+    "image": "/assets/img/202410ictc_fig01.png",
+    "tags": [
+      "NTN",
+      "UAV",
+      "MIMO"
+    ],
+    "abstract": "This paper explores a multi-user downlink scheduling and power allocation strategy for urban air mobility (UAM) within a 6G non-terrestrial network (NTN) that integrates satellite and ground networks. We focus on maximizing the sum rate by addressing link association, power, elevation angle, and quality-of-service constraints. The approach first reduces interference by segregating satellite-serviced users, then converts the GS link association problem into a minimum-cost maximum-flow problem using a graph-theoretical method. The non-convex power allocation problem is tackled with iterative algorithms. Simulation results validate the effectiveness of the proposed methods in managing interference in multi-UAM and multi-GS environments, offering a robust framework for future UAM operations in 6G NTN.",
+    "venue_short": "ICTC"
+  },
+  {
+    "id": "202308tvt",
+    "year": 2023,
+    "type": "journal",
+    "status": "Published",
+    "title": "Performance Analysis of Passive Retro-Reflector Based Tracking in Free-Space Optical Communications with Pointing Errors",
+    "authors": "H.-J. Moon, C.-B. Chae, and M.-S. Alouini",
+    "citation": "IEEE Trans. Veh. Technol., vol. 72, no. 8, pp. 10982-10987, Aug. 2023.",
+    "venue": "IEEE Transactions on Vehicular Technology",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10066845",
+    "url": "/2023/08/01/202308tvt.html",
+    "image": "/assets/img/202308tvt_fig01.png",
+    "tags": [
+      "FSO",
+      "UAV",
+      "MIMO"
+    ],
+    "abstract": "In this correspondence, we propose a diversity-achieving retroreflector-based fine tracking system for free-space optical (FSO) communications. We show that multiple retroreflectors deployed around the communication telescope at the aerial vehicle save the payload capacity and enhance the outage performance of the fine tracking system. Through the analysis of the joint-pointing loss of the multiple retroreflectors, we derive the ordered moments of the received power. Our analysis can be further utilized for studies on multiple input multiple output (MIMO)-FSO. After the moment-based estimation of the received power distribution, we numerically analyze the outage performance. The greatest challenge of retroreflector-based FSO communication is a significant decrease in power. Still, our selected numerical results show that, from an outage perspective, the proposed method can surpass conventional methods.",
+    "venue_short": "IEEE TVT"
+  },
+  {
+    "id": "202304commag",
+    "year": 2023,
+    "type": "journal",
+    "status": "Published",
+    "title": "Free-Space Optical Communications for 6G-enabled Long-Range Wireless Networks: Challenges, Opportunities, and Prototype Validation",
+    "authors": "H.-B. Jeon, S.-M. Kim, H.-J. Moon, D.-H. Kwon, J.-W. Lee, J.-M. Chung, S.-K. Han, C.-B. Chae, and M.-S. Alouini",
+    "citation": "IEEE Commun. Mag., vol. 61, no. 4, pp. 116-121, Apr. 2023.",
+    "venue": "IEEE Communications Magazine",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/10106155",
+    "url": "/2023/04/01/202304commag.html",
+    "image": "/assets/img/202304commag_fig01.png",
+    "tags": [
+      "FSO",
+      "Prototype"
+    ],
+    "abstract": "Numerous researchers have studied innovations in future sixth-generation (6G) wireless communications. Indeed, a critical issue that has emerged is to contend with society's insatiable demand for high data rates and massive 6G connectivity. Some scholars consider one innovation to be a break-through-the application of free-space optical (FSO) communication. Owing to its exceedingly high carrier frequency/bandwidth and the potential of the unlicensed spectrum domain, FSO communication provides an excellent opportunity to develop ultrafast data links that can be applied in a variety of 6G applications, including heterogeneous networks with enormous connectivity and wireless backhauls for cellular systems. In this study, we perform video signal transmissions via an FPGA-based FSO communication prototype to investigate the feasibility of an FSO link with a distance of up to 20 km. We use a channel emulator to reliably model turbulence, scintillation, and power attenuation of the long-range FSO channel. We use the FPGA-based real-time SDR prototype to process the transmitted and received video signals. Our study also presents the channel-generation process of a given long-distance FSO link. To enhance the link quality, we apply spatial selective filtering to suppress the background noise generated by sun-light. To measure the misalignment of the transceiver, we use sampling-based pointing, acquisition, and tracking to compensate for it by improving the signal-to-noise ratio. For the main video signal transmission testbed, we consider various environments by changing the amount of turbulence and wind speed. We demonstrate that the testbed even permits the successful transmission of ultra-high-definition (UHD: 3840 × 2160 resolution) 60 fps videos under severe turbulence and high wind speeds.",
+    "venue_short": "IEEE ComMag"
+  },
+  {
+    "id": "202202wcl",
+    "year": 2022,
+    "type": "journal",
+    "status": "Published",
+    "title": "RF Lens Antenna Array-Based One-Shot Coarse Pointing for Hybrid RF/FSO Communications",
+    "authors": "H.-J. Moon, H.-B. Jeon, and C.-B. Chae",
+    "citation": "IEEE Wireless Commun. Lett., vol. 11, no. 2, pp. 240-244, Feb. 2022.",
+    "venue": "IEEE Wireless Communications Letters",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/9598830",
+    "url": "/2021/02/01/202202wcl.html",
+    "image": "/assets/img/202102wcl_fig01.png",
+    "tags": [
+      "MIMO",
+      "FSO",
+      "UAV"
+    ],
+    "abstract": "Because of its high directivity, free-space optical (FSO) communication offers a number of advantages. It can, however, give rise to major system difficulties concerning alignment between two terminals. During the link-acquisition step (a.k.a. coarse pointing), a ground station can be prevented from acquiring optical links due to pointing errors and insufficient information about unmanned aerial vehicle locations. We propose, in this letter, a radio-frequency (RF) lens antenna array to increase the performance of coarse pointing in hybrid RF/FSO communications. The proposed algorithm using a novel closed-form angle estimator, compared to conventional methods, reduces the minimum outage probability by over a thousand times.",
+    "venue_short": "IEEE WCL"
+  },
+  {
+    "id": "202004wcnc",
+    "year": 2020,
+    "type": "conference",
+    "status": "Published",
+    "title": "A Unified Platform of Free-Space Optics for High-Quality Video Transmission",
+    "authors": "H.-B. Jeon, H.-J. Moon, S.-M. Kim, D.-H. Kwon, J.-W. Lee, S.-K. Han, C.-B. Chae",
+    "citation": "Proc. IEEE Wireless Communications and Networking Conference (WCNC), 2020.",
+    "venue": "Proc. IEEE Wireless Communications and Networking Conference (WCNC)",
+    "paper_url": "https://ieeexplore.ieee.org/abstract/document/9124814/",
+    "url": "/2020/04/06/202004wcnc.html",
+    "image": "/assets/img/202304commag_fig01.png",
+    "tags": [
+      "FSO",
+      "Prototype"
+    ],
+    "abstract": "In this paper, we investigate video signal transmission through an FPGA-based free-space optical (FSO) communication system prototype. We use a channel emulator that models the turbulence, scintillation, and power attenuation of the FSO channel and the FPGA-based real-time prototype for processing transmitted and received video signals. We vary the setup environment of the channel emulator by changing the amount of turbulence and wind speed. At the end of the demonstration, we show that through our testbed, even 4K ultra-high-definition (UHD) resolution video with 60 fps can be successfully transmitted under high turbulence and wind speed.",
+    "venue_short": "IEEE WCNC"
+  }
+]

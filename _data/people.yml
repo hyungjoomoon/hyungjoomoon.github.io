@@ -1,0 +1,16 @@
+- name: Hyung-Joo Moon
+  role: Principal investigator
+  degree: PhD
+  research_interest: AI-native wireless; latent communications; wireless digital twins; NTN.
+  portrait: /assets/img/hyung-joo-moon-2026.jpg
+  placeholder: false
+- name: Future member
+  role: Graduate researcher
+  degree: M.S. / PhD student
+  research_interest: To be added.
+  placeholder: true
+- name: Future member
+  role: Undergraduate researcher
+  degree: Undergraduate student
+  research_interest: To be added.
+  placeholder: true

@@ -1,53 +1,25 @@
-title: Hyung-Joo Moon # Shown in header on pages with full_logo: true
-short_logo: HJM # Shown in header on all pages by default unless full_logo: true is set
-description: > # The description for your site
-  It's me.
-url: "https://hyungjoomoon.github.io/" # Site base URL
-
+title: WAISL
+lab_name: Wireless AI Systems Lab
+description: Wireless AI Systems Lab at DGIST. Research in AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks.
+url: "https://hyungjoomoon.github.io"
+baseurl: ""
+timezone: Asia/Seoul
+markdown: kramdown
+email: moonhj@yonsei.ac.kr
+pi_portrait: /assets/img/hyung-joo-moon-2026.jpg
+scholar: "https://scholar.google.com/citations?user=bd66RuQAAAAJ&hl=en"
+linkedin: "https://www.linkedin.com/in/hyung-joo-moon-304b42303/"
 author:
   name: Hyung-Joo Moon
-  github: citations?user=bd66RuQAAAAJ&hl=ko # GitHub username, used for GitHub icon on the top right
-  linkedin: hyung-joo-moon-304b42303/ # Your LinkedIn profile url name, used for LinkedIn icon on the top right
-  email: moonhj@yonsei.ac.kr # Used for email icon on the top right
-  homepage: https://hyungjoomoon.github.io/ # This links to your name in post meta
-  twitter: # Twitter username, used for Twitter Card Analytics 
-
-disqus_name: # Setting this will turn on Disqus comments
-g_track_id: # Google Analytics tracking ID (e.g. UA-000000-2), setting this will turn on Google Analytics
-
-markdown: kramdown
-
-defaults: # Recommended defaults, you may set your own
-  -
-    scope:
-      path: _posts
+  email: moonhj@yonsei.ac.kr
+defaults:
+  - scope:
+      path: ""
     values:
-      comments: true
-  -
-    scope:
-      path: pages/redirects
+      layout: default
+  - scope:
+      path: "_posts"
     values:
-      layout: redirect
-      index: false
-      listed: false
-  -
-    scope:
-      path: pages/tags
-    values:
-      layout: tag
-      sitemap:
-        priority: 0.4
-
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  ignore:
-    envs: [local]
-  blanklines: true
-  profile: false
-  startings: [html, head, body]
-
-rss: false # RSS feed icon on or off
-dark_mode: true # Dark mode icon
-project_card_style: modal # Choose from masonry, modal, and flat
+      layout: post
+      section: publications
+exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, scripts, vendor]

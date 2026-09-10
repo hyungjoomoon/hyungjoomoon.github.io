@@ -1,0 +1,43 @@
+---
+title: Research
+section: research
+permalink: /research/
+description: AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks at WAISL, DGIST.
+---
+<section class="page-intro container">
+  <p class="eyebrow">WAISL · DGIST</p>
+  <h1>Research</h1>
+  <p>Our primary interests are AI-native wireless systems, latent communications for edge intelligence, and wireless digital twins. Our broader work also includes non-terrestrial networks.</p>
+</section>
+<div class="container research-directions">
+  {% for area in site.data.research %}
+  <section class="research-detail" id="{{ area.id }}">
+    <div class="research-detail-visual">
+      <span class="eyebrow">RESEARCH AREA / {{ area.number }}</span>
+      {% include research-visual.html type=area.visual %}
+      <div class="research-tags">{% for tag in area.tags %}<span>{{ tag }}</span>{% endfor %}</div>
+    </div>
+    <div class="research-detail-copy">
+      <h2>{{ area.title }}</h2>
+      <p class="research-subtitle">{{ area.subtitle }}</p>
+      <p>{{ area.detail }}</p>
+      {% if area.publications.size > 0 %}
+      <h3 class="eyebrow related-heading">RELATED WORK</h3>
+      {% for id in area.publications %}
+      {% assign pub = site.data.publications | where: 'id', id | first %}
+      {% if pub %}
+      <div class="related-work">
+        {% if pub.url %}<a href="{{ pub.url | relative_url }}">{{ pub.title }} <span aria-hidden="true">↗</span><span class="related-status">{{ pub.venue_short | default: pub.venue }}, {{ pub.year }}</span></a>
+        {% else %}<a href="{{ '/publications/' | relative_url }}?type=progress">{{ pub.title }} <span class="related-status">{{ pub.status }}</span></a>{% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+      {% endif %}
+    </div>
+  </section>
+  {% endfor %}
+</div>
+<section class="approach-band">
+  <div class="container"><p class="eyebrow">METHODS</p><h2>Research approach</h2><p>We combine mathematical analysis, learning-based algorithms, simulation, and prototype validation. Across the four areas, we study both algorithmic performance and the constraints of physical wireless systems.</p><a class="text-link" href="{{ '/publications/' | relative_url }}">Publications <span aria-hidden="true">↗</span></a></div>
+</section>
+{% include join-banner.html %}
