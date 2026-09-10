@@ -2723,6 +2723,26 @@ html:not(.js-enabled) .field-control {
 .lab-overview .hero-field:after {
   content: none;
 }
+.channel-scene .field-top > span {
+  display: block;
+}
+.field-legend,
+.field-legend > span {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.field-legend {
+  gap: 15px;
+}
+.field-legend i {
+  width: 13px;
+  height: 1px;
+  background: var(--blue);
+}
+.field-legend > span:last-child i {
+  background: #288cba;
+}
 .research-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
