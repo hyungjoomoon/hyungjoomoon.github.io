@@ -17,9 +17,4 @@ defaults:
       path: ""
     values:
       layout: default
-  - scope:
-      path: "_posts"
-    values:
-      layout: post
-      section: publications
 exclude: [Gemfile, Gemfile.lock, README.md, LICENSE, scripts, vendor]

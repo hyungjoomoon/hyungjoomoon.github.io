@@ -65,7 +65,8 @@
     "citation": "IEEE J. Sel. Areas Commun., vol. 44, pp. 3444-3458, Jan. 2026.",
     "venue": "IEEE Journal on Selected Areas in Communications",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/11359157",
-    "url": "/2026/01/01/202601jsac.html",
+    "feed_id": "/2026/01/01/202601jsac.html",
+    "feed_date": "2026-01-01",
     "image": "/assets/img/202601jsac_fig01.png",
     "tags": [
       "AIML",
@@ -85,7 +86,8 @@
     "citation": "IEEE Trans. Wireless Commun., vol. 25, pp. 4358-4373, Jan. 2026.",
     "venue": "IEEE Transactions on Wireless Communications",
     "paper_url": "https://ieeexplore.ieee.org/document/11176920",
-    "url": "/2025/09/01/2025eatwc.html",
+    "feed_id": "/2025/09/01/2025eatwc.html",
+    "feed_date": "2025-09-01",
     "image": "/assets/img/202508eatwc_fig01.png",
     "tags": [
       "NTN",
@@ -107,7 +109,8 @@
     "citation": "IEEE Commun. Mag., vol. 63, no. 11, pp. 76-82, Nov. 2025.",
     "venue": "IEEE Communications Magazine",
     "paper_url": "https://arxiv.org/abs/2507.09895",
-    "url": "/2025/08/01/2025eacommag.html",
+    "feed_id": "/2025/08/01/2025eacommag.html",
+    "feed_date": "2025-08-01",
     "image": "/assets/img/2025eacommag_fig02.png",
     "tags": [
       "NTN",
@@ -128,7 +131,8 @@
     "citation": "IEEE Trans. Wireless Commun., vol. 24, no. 7, pp. 5723-5737, Jul. 2025.",
     "venue": "IEEE Transactions on Wireless Communications",
     "paper_url": "https://ieeexplore.ieee.org/document/10927643",
-    "url": "/2025/07/01/2025twc.html",
+    "feed_id": "/2025/07/01/2025twc.html",
+    "feed_date": "2025-07-01",
     "image": "/assets/img/2025eatwc_fig01.png",
     "tags": [
       "FSO",
@@ -147,7 +151,8 @@
     "citation": "IEEE J. Sel. Areas Commun., vol. 43, no. 1, pp. 218-233, Jan. 2025.",
     "venue": "IEEE Journal on Selected Areas in Communications",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10680075",
-    "url": "/2025/01/01/202501jsac.html",
+    "feed_id": "/2025/01/01/202501jsac.html",
+    "feed_date": "2025-01-01",
     "image": "/assets/img/202501jsac_fig01.png",
     "tags": [
       "NTN",
@@ -167,7 +172,8 @@
     "citation": "Proc. IEEE, vol. 112, no. 5, pp. 463-486, May 2024.",
     "venue": "Proceedings of the IEEE",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10449676",
-    "url": "/2024/05/01/202405pieee.html",
+    "feed_id": "/2024/05/01/202405pieee.html",
+    "feed_date": "2024-05-01",
     "image": "/assets/img/202405pieee_fig01.png",
     "tags": [
       "Full-Duplex"
@@ -185,7 +191,8 @@
     "citation": "IEEE Commun. Mag., vol. 62, no. 3, pp. 32-38, Mar. 2024.",
     "venue": "IEEE Communications Magazine",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10323407",
-    "url": "/2024/03/01/202403commag.html",
+    "feed_id": "/2024/03/01/202403commag.html",
+    "feed_date": "2024-03-01",
     "image": "/assets/img/202403commag_fig01.png",
     "tags": [
       "FSO",
@@ -204,7 +211,8 @@
     "citation": "Proc. International Conference on Information and Communication Technology Convergence (ICTC), 2024.",
     "venue": "Proc. International Conference on Information and Communication Technology Convergence (ICTC)",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10826974",
-    "url": "/2024/10/01/202410ictc.html",
+    "feed_id": "/2024/10/01/202410ictc.html",
+    "feed_date": "2024-10-01",
     "image": "/assets/img/202410ictc_fig01.png",
     "tags": [
       "NTN",
@@ -224,7 +232,8 @@
     "citation": "IEEE Trans. Veh. Technol., vol. 72, no. 8, pp. 10982-10987, Aug. 2023.",
     "venue": "IEEE Transactions on Vehicular Technology",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10066845",
-    "url": "/2023/08/01/202308tvt.html",
+    "feed_id": "/2023/08/01/202308tvt.html",
+    "feed_date": "2023-08-01",
     "image": "/assets/img/202308tvt_fig01.png",
     "tags": [
       "FSO",
@@ -244,7 +253,8 @@
     "citation": "IEEE Commun. Mag., vol. 61, no. 4, pp. 116-121, Apr. 2023.",
     "venue": "IEEE Communications Magazine",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/10106155",
-    "url": "/2023/04/01/202304commag.html",
+    "feed_id": "/2023/04/01/202304commag.html",
+    "feed_date": "2023-04-01",
     "image": "/assets/img/202304commag_fig01.png",
     "tags": [
       "FSO",
@@ -263,7 +273,8 @@
     "citation": "IEEE Wireless Commun. Lett., vol. 11, no. 2, pp. 240-244, Feb. 2022.",
     "venue": "IEEE Wireless Communications Letters",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/9598830",
-    "url": "/2021/02/01/202202wcl.html",
+    "feed_id": "/2021/02/01/202202wcl.html",
+    "feed_date": "2021-02-01",
     "image": "/assets/img/202102wcl_fig01.png",
     "tags": [
       "MIMO",
@@ -283,7 +294,8 @@
     "citation": "Proc. IEEE Wireless Communications and Networking Conference (WCNC), 2020.",
     "venue": "Proc. IEEE Wireless Communications and Networking Conference (WCNC)",
     "paper_url": "https://ieeexplore.ieee.org/abstract/document/9124814/",
-    "url": "/2020/04/06/202004wcnc.html",
+    "feed_id": "/2020/04/06/202004wcnc.html",
+    "feed_date": "2020-04-06",
     "image": "/assets/img/202304commag_fig01.png",
     "tags": [
       "FSO",

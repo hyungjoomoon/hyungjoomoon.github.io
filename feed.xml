@@ -7,14 +7,14 @@ layout: null
     <title>WAISL — Wireless AI Systems Lab</title>
     <link>{{ site.url | xml_escape }}</link>
     <description>{{ site.description | xml_escape }}</description>
-    {% for post in site.posts %}
-    {% assign pub = site.data.publications | where: 'id', post.slug | first %}
+    {% assign publications = site.data.publications | where: 'status', 'Published' | sort: 'feed_date' | reverse %}
+    {% for pub in publications %}
     <item>
-      <title>{{ pub.title | default: post.title | xml_escape }}</title>
-      <link>{{ pub.paper_url | default: post.paperlink | xml_escape }}</link>
-      <guid isPermaLink="false">{{ post.url | absolute_url | xml_escape }}</guid>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-      <description>{{ post.abstract | xml_escape }}</description>
+      <title>{{ pub.title | xml_escape }}</title>
+      <link>{{ pub.paper_url | xml_escape }}</link>
+      <guid isPermaLink="false">{{ pub.feed_id | default: pub.id | absolute_url | xml_escape }}</guid>
+      {% if pub.feed_date %}<pubDate>{{ pub.feed_date | date_to_rfc822 }}</pubDate>{% endif %}
+      <description>{{ pub.abstract | xml_escape }}</description>
     </item>
     {% endfor %}
   </channel>
