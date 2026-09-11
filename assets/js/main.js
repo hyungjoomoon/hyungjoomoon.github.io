@@ -76,14 +76,25 @@
   let width = 0, height = 0, frame = 0, time = .35, last = 0;
   const blue = [33, 89, 222], reflected = [40, 140, 186], structure = [75, 115, 167];
   const bs = [-1.2, .56, .5];
-  const wall = { left: -.65, right: 1.18, front: -.52, back: -1.03, top: .84 };
-  const cycleDuration = 22, signalSpeed = 2.5, shotCount = 12, reconstructionShots = 9;
+  const wall = { left: -.9, right: .46, front: -.52, back: -.8, top: .64 };
+  const cycleDuration = 22, signalSpeed = 2.5, shotCount = 12;
+  const revealRadius = .52, surfaceSpeed = .36;
+  const mobiles = [
+    { center: -.175, range: .125, phase: 0, lane: -.08 },
+    { center: .74, range: .12, phase: 2.1, lane: 0 },
+    { center: 1.6, range: .1, phase: 4.2, lane: -.1 }
+  ];
   const clamp = (v) => Math.max(0, Math.min(1, v));
   const smooth = (v) => { v = clamp(v); return v * v * (3 - 2 * v); };
   const rgba = (color, alpha) => `rgba(${color.join(',')},${alpha})`;
   const mix = (a, b, t) => a.map((value, i) => value + (b[i] - value) * t);
   const distance = (a, b) => Math.hypot(...a.map((value, i) => b[i] - value));
-  const mobileAt = (t) => [.7 + .4 * Math.sin(t * .23 - .7), .82 + .12 * Math.cos(t * .23 - .7), .15];
+  const mobileAt = (t, index = 0) => {
+    const mobile = mobiles[index];
+    const phase = t / cycleDuration * Math.PI * 2 + mobile.phase;
+    const x = mobile.center - mobile.range * Math.cos(phase);
+    return [x, .86 - .42 * (x - .7) + .04 * Math.sin(phase) + mobile.lane, .15];
+  };
   const project = ([x, y, z]) => {
     const scale = Math.min((width - 45) / 3.5, (height - 88) / 1.75);
     return [width * .46 + (x * .92 - y * .56) * scale,
@@ -116,25 +127,33 @@
     const mirrored = [target[0], 2 * wall.front - target[1], target[2]];
     return mix(source, mirrored, (wall.front - source[1]) / (mirrored[1] - source[1]));
   };
-  const radioPath = (emitted, uplink, bounce) => {
-    const source = uplink ? mobileAt(emitted) : bs;
-    let target = uplink ? bs : mobileAt(emitted);
+  const radioPath = (emitted, uplink, bounce, ueIndex = 0) => {
+    const source = uplink ? mobileAt(emitted, ueIndex) : bs;
+    let target = uplink ? bs : mobileAt(emitted, ueIndex);
     let points, length;
     // Predict the receiver position at arrival so a packet reaches the moving UE.
     for (let i = 0; i < 4; i++) {
       points = bounce ? [source, reflectionPoint(source, target), target] : [source, target];
       length = points.slice(1).reduce((sum, point, j) => sum + distance(points[j], point), 0);
-      if (!uplink) target = mobileAt(emitted + length / signalSpeed);
+      if (!uplink) target = mobileAt(emitted + length / signalSpeed, ueIndex);
     }
-    return { points, emitted, length, hit: emitted + distance(points[0], points[1]) / signalSpeed };
+    return { points, emitted, length, ueIndex, hit: emitted + distance(points[0], points[1]) / signalSpeed };
   };
+  // Both propagation paths belong to one transmission and share its departure time.
+  const makeTransmission = (emitted, uplink, ueIndex) => ({
+    direct: radioPath(emitted, uplink, false, ueIndex),
+    reflection: radioPath(emitted, uplink, true, ueIndex)
+  });
 
-  // Facade samples precede their connecting edges as successive reflections arrive.
+  // Short edge segments let reconstruction spread locally from actual reflection hits.
   const mesh = [], samples = [];
-  const revealOrder = ([x, y, z]) => .78 * (
-    .68 * (x - wall.left) / (wall.right - wall.left) +
-    .18 * (wall.front - y) / (wall.front - wall.back) + .14 * z / wall.top);
-  const addEdge = (a, b, weight = .65) => mesh.push({ a, b, weight, order: revealOrder(mix(a, b, .5)) });
+  const addEdge = (a, b, weight = .65) => {
+    const count = Math.ceil(distance(a, b) / .055);
+    for (let i = 0; i < count; i++) {
+      const start = mix(a, b, i / count), end = mix(a, b, (i + 1) / count);
+      mesh.push({ a: start, b: end, center: mix(start, end, .5), weight });
+    }
+  };
   for (let col = 0; col <= 7; col++) {
     const x = wall.left + (wall.right - wall.left) * col / 7;
     for (let row = 0; row <= 3; row++) {
@@ -156,18 +175,28 @@
   }
   for (let row = 1; row < 3; row++) addEdge([wall.right, wall.front, wall.top * row / 3], [wall.right, wall.back, wall.top * row / 3], .6);
 
-  const drawBuilding = (progress, opacity) => {
-    if (progress <= 0 || opacity <= 0) return;
-    const front = [[wall.left, wall.front, 0], [wall.right, wall.front, 0],
-      [wall.right, wall.front, wall.top], [wall.left, wall.front, wall.top]];
-    polygon(front.map(project)); ctx.fillStyle = rgba(structure, .025 * progress * opacity); ctx.fill();
-    mesh.forEach(({ a, b, weight, order }) => {
-      const amount = smooth((progress - order) / .2);
+  const reconstructionAt = (point, observations, delay = 0) => {
+    if (still) return 1;
+    let confidence = 0;
+    for (const observation of observations) {
+      const separation = distance(point, observation.points[1]);
+      if (separation > revealRadius) continue;
+      const arrival = observation.hit + Math.max(0, (separation - .05) / surfaceSpeed);
+      confidence += .42 * smooth((time - arrival - delay) / .22);
+    }
+    return clamp(confidence);
+  };
+  const drawBuilding = (shots, opacity) => {
+    if (opacity <= 0) return;
+    const observations = shots.filter((shot) => shot.hit <= time);
+    if (!still && !observations.length) return;
+    mesh.forEach(({ a, b, center, weight }) => {
+      const amount = reconstructionAt(center, observations, .08);
       if (!amount) return;
-      line([project(a), project(mix(a, b, amount))], rgba(structure, (.32 + .38 * amount) * opacity), weight);
+      line([project(mix(center, a, amount)), project(mix(center, b, amount))], rgba(structure, .7 * amount * opacity), weight);
     });
     samples.forEach((point) => {
-      const amount = smooth((progress - revealOrder(point) + .07) / .14);
+      const amount = reconstructionAt(point, observations);
       if (amount) dot(project(point), 1.1, rgba(reflected, amount * opacity * .78));
     });
   };
@@ -201,14 +230,14 @@
   };
   const drawImpact = (path) => {
     const age = time - path.hit;
-    if (age < 0 || age > 1.25) return;
-    const hit = path.points[1], opacity = 1 - age / 1.25;
+    if (age < 0 || age > 1.6) return;
+    const hit = path.points[1], opacity = 1 - age / 1.6;
     ctx.save();
     polygon([[wall.left, wall.front, 0], [wall.right, wall.front, 0],
       [wall.right, wall.front, wall.top], [wall.left, wall.front, wall.top]].map(project));
     ctx.clip();
     for (let ring = 0; ring < 2; ring++) {
-      const radius = .05 + age * .36 - ring * .08;
+      const radius = Math.min(revealRadius, .05 + age * surfaceSpeed) - ring * .08;
       if (radius <= 0) continue;
       const points = Array.from({ length: 41 }, (_, i) => {
         const angle = i / 40 * Math.PI * 2;
@@ -220,8 +249,13 @@
     dot(project(hit), 1.8, rgba(reflected, opacity));
     ctx.restore();
   };
+  const drawTransmission = ({ direct, reflection }) => {
+    drawPulse(direct, blue);
+    drawPulse(reflection, reflected);
+    drawImpact(reflection);
+  };
 
-  const drawDevices = (ue) => {
+  const drawDevices = (ues) => {
     const foot = project([bs[0], bs[1], 0]), antenna = project(bs);
     const left = project([bs[0] - .095, bs[1], 0]);
     const right = project([bs[0] + .095, bs[1], 0]);
@@ -237,16 +271,18 @@
     dot(antenna, 2, rgba(blue, 1));
     label('BS', [foot[0], foot[1] + 18]);
 
-    const ground = project([ue[0], ue[1], 0]), port = project(ue);
-    ctx.fillStyle = 'rgba(55,95,156,.1)'; ctx.beginPath();
-    ctx.ellipse(ground[0], ground[1] + 3, 12, 4, 0, 0, Math.PI * 2); ctx.fill();
-    ctx.fillStyle = '#f8fbff'; ctx.strokeStyle = '#2159de'; ctx.lineWidth = 1.2;
-    const phoneHeight = Math.max(17, ground[1] - port[1] + 5);
-    ctx.fillRect(port[0] - 6, ground[1] - phoneHeight, 12, phoneHeight);
-    ctx.strokeRect(port[0] - 6, ground[1] - phoneHeight, 12, phoneHeight);
-    line([[port[0] - 2, ground[1] - 3], [port[0] + 2, ground[1] - 3]], rgba(blue, .5), 1);
-    dot(port, 2.2, rgba(blue, 1));
-    label('MOBILE UE', [ground[0] + 39, ground[1] - 5]);
+    ues.forEach((ue) => {
+      const ground = project([ue[0], ue[1], 0]), port = project(ue);
+      ctx.fillStyle = 'rgba(55,95,156,.1)'; ctx.beginPath();
+      ctx.ellipse(ground[0], ground[1] + 3, 12, 4, 0, 0, Math.PI * 2); ctx.fill();
+      ctx.fillStyle = '#f8fbff'; ctx.strokeStyle = '#2159de'; ctx.lineWidth = 1.2;
+      const phoneHeight = Math.max(17, ground[1] - port[1] + 5);
+      ctx.fillRect(port[0] - 6, ground[1] - phoneHeight, 12, phoneHeight);
+      ctx.strokeRect(port[0] - 6, ground[1] - phoneHeight, 12, phoneHeight);
+      line([[port[0] - 2, ground[1] - 3], [port[0] + 2, ground[1] - 3]], rgba(blue, .5), 1);
+      dot(port, 2.2, rgba(blue, 1));
+      label('UE', [ground[0] + 20, ground[1] - 5]);
+    });
   };
 
   const draw = () => {
@@ -258,29 +294,26 @@
       line([project([x, -1.1, 0]), project([x, .98, 0])], rgba(structure, .075), .6);
       line([project([-1.32, y, 0]), project([1.32, y, 0])], rgba(structure, .075), .6);
     }
-    const ue = mobileAt(time);
-    const trail = Array.from({ length: 45 }, (_, i) => {
-      const point = mobileAt(time - 7 + i / 44 * 12);
-      return project([point[0], point[1], 0]);
+    const ues = mobiles.map((_, index) => mobileAt(time, index));
+    ues.forEach((ue, index) => {
+      const trail = Array.from({ length: 30 }, (_, i) => {
+        const point = mobileAt(time - 7 + i / 29 * 12, index);
+        return project([point[0], point[1], 0]);
+      });
+      line(trail, rgba(structure, .22), .8, [2, 5]);
     });
-    line(trail, rgba(structure, .22), .8, [2, 5]);
     const cycleStart = Math.floor(time / cycleDuration) * cycleDuration;
     const phase = time - cycleStart;
-    const shots = Array.from({ length: shotCount }, (_, i) => radioPath(cycleStart + .4 + i * 1.5, i % 2 === 1, true));
-    const progress = shots.slice(0, reconstructionShots).reduce((sum, shot) => sum + smooth((time - shot.hit) / .9), 0) / reconstructionShots;
+    const transmissions = Array.from({ length: shotCount }, (_, i) => makeTransmission(cycleStart + .4 + i * 1.5, Math.floor(i / mobiles.length) % 2 === 1, i % mobiles.length));
     const opacity = 1 - smooth((phase - 18) / 3.5);
-    drawBuilding(still ? 1 : progress, still ? 1 : opacity);
-    line([project(bs), project(ue)], rgba(blue, .15), .9);
+    drawBuilding(transmissions.map(({ reflection }) => reflection), still ? 1 : opacity);
+    ues.forEach((ue) => line([project(bs), project(ue)], rgba(blue, .12), .9));
     if (still) {
-      const reflection = radioPath(time - .95, false, true);
-      drawPulse(reflection, reflected); drawImpact(reflection);
-      drawPulse(radioPath(time - .3, true, false), blue);
+      ues.forEach((_, index) => drawTransmission(makeTransmission(time - .45 - index * .1, index % 2 === 1, index)));
     } else {
-      shots.forEach((shot) => { drawPulse(shot, reflected); drawImpact(shot); });
-      const current = Math.floor(time / 1.1);
-      for (let i = Math.max(0, current - 2); i <= current; i++) drawPulse(radioPath(i * 1.1, i % 2 === 1, false), blue);
+      transmissions.forEach(drawTransmission);
     }
-    drawDevices(ue);
+    drawDevices(ues);
   };
   const tick = (now) => {
     frame = 0;
