@@ -18,7 +18,7 @@ Open http://127.0.0.1:4000. Build with `bundle exec jekyll build`.
 - `_data/news.json`: news in newest-first order.
 - `_data/research.yml`: research directions and related publication IDs.
 - `_data/people.yml`: role, name, degree, portrait, and short research interests for each member; future members remain explicit placeholders.
-- `pages/people.html`: one column of compact, uniform member cards, without profile links or biographies. Former profile URLs redirect to People.
+- `pages/members.html`: one column of compact, uniform member cards, without profile links or biographies. `/people/` and former profile URLs redirect to Members at `/members/`.
 - `_config.yml`: lab identity, contact email, profile links, and the shared `pi_portrait` path.
 - `assets/css/main.css` and `assets/js/main.js`: design and progressive interactions.
 
