@@ -12,12 +12,8 @@ description: AI-native wireless, latent communications for edge intelligence, wi
 <div class="container research-directions">
   {% for area in site.data.research %}
   <section class="research-detail" id="{{ area.id }}">
-    <div class="research-detail-visual">
-      <span class="eyebrow">RESEARCH AREA / {{ area.number }}</span>
-      {% include research-visual.html type=area.visual %}
-      <div class="research-tags">{% for tag in area.tags %}<span>{{ tag }}</span>{% endfor %}</div>
-    </div>
     <div class="research-detail-copy">
+      <span class="eyebrow">RESEARCH AREA / {{ area.number }}</span>
       <h2>{{ area.title }}</h2>
       <p class="research-subtitle">{{ area.subtitle }}</p>
       <p>{{ area.detail }}</p>

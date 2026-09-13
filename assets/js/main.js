@@ -115,7 +115,7 @@
     ctx.closePath();
   };
   const label = (text, point) => {
-    ctx.font = `400 ${width < 380 ? 8 : 9}px "Geist Mono", monospace`;
+    ctx.font = `400 ${width < 380 ? 10 : 11}px "Geist Mono", monospace`;
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     const size = ctx.measureText(text).width;
     ctx.fillStyle = 'rgba(247,250,255,.9)';
