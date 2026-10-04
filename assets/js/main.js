@@ -115,11 +115,11 @@
     ctx.closePath();
   };
   const label = (text, point) => {
-    ctx.font = `400 ${width < 380 ? 10 : 11}px "Geist Mono", monospace`;
+    ctx.font = `400 ${width < 380 ? 11 : 12}px "Geist Mono", monospace`;
     ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
     const size = ctx.measureText(text).width;
     ctx.fillStyle = 'rgba(247,250,255,.9)';
-    ctx.fillRect(point[0] - size / 2 - 5, point[1] - 7, size + 10, 14);
+    ctx.fillRect(point[0] - size / 2 - 5, point[1] - 8, size + 10, 16);
     ctx.fillStyle = '#426186'; ctx.fillText(text, ...point);
   };
 
