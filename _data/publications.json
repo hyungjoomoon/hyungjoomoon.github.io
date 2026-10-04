@@ -3,21 +3,21 @@
     "id": "manuscript-1",
     "year": 2026,
     "type": "progress",
-    "status": "Submitted",
+    "status": "Under revision",
     "title": "Channel2World: A Wireless Foundation Model for RF Environment Representation",
     "paper_url": "https://arxiv.org/abs/2608.17544",
     "preprint": true,
     "authors": "H.-J. Moon, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae",
-    "citation": "submitted."
+    "citation": "under revision."
   },
   {
     "id": "manuscript-2",
     "year": 2026,
     "type": "progress",
-    "status": "Submitted",
+    "status": "Under revision",
     "title": "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation",
     "authors": "H.-J. Moon, H.-W. Hyun, H. Yoo, S. Yang, H. Nam, D. Shin, J. Zhang, and C.-B. Chae",
-    "citation": "submitted."
+    "citation": "under revision."
   },
   {
     "id": "manuscript-3",

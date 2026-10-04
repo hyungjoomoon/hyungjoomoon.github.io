@@ -22,9 +22,9 @@ Open http://127.0.0.1:4000. Build with `bundle exec jekyll build`.
 - `_config.yml`: lab identity, contact email, profile links, and the shared `pi_portrait` path.
 - `assets/css/main.css` and `assets/js/main.js`: design and progressive interactions.
 
-## First-draft content notes
+## Content notes
 
-Research content, publication statuses, dates, and contact information are carried over from the original homepage. The latent communications direction and the 2026 PI portrait were supplied in the redesign feedback. The four research areas are ordered as AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks. WAISL, DGIST affiliation, and the PI role follow the redesign brief. A DGIST email, department, office, formal appointment title/date, and specific recruitment availability were not provided and have not been invented. Detailed personal biographies and education histories are not displayed.
+Research content and publication records originated from the previous homepage and incorporate subsequent updates from the PI. The latent communications direction and the 2026 PI portrait were supplied in the redesign feedback. The four research areas are ordered as AI-native wireless, latent communications for edge intelligence, wireless digital twins, and non-terrestrial networks. WAISL, the DGIST EECS affiliation, the PI title, and the DGIST email follow the PI's updates. An office location, formal appointment date, and specific recruitment availability have not been provided. The homepage includes the PI's PhD university, year, and supervisor.
 
 Publication history includes pre-WAISL work. The original homepage's final citations are retained in the publication data. Paper titles, arrows, research links, and feed links open `paper_url` directly. Individual paper pages and their legacy redirects have been removed. The two conference papers are also retained.
 
