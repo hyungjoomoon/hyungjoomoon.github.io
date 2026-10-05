@@ -1,5 +1,14 @@
 [
   {
+    "id": "manuscript-6",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Learning an Interactive FDD MIMO Interface for Real-Time Agentic Latent Communication",
+    "authors": "H.-J. Moon",
+    "citation": "submitted."
+  },
+  {
     "id": "manuscript-1",
     "year": 2026,
     "type": "progress",
@@ -49,11 +58,26 @@
     "citation": "under revision."
   },
   {
-    "id": "manuscript-6",
+    "id": "manuscript-7",
     "year": 2026,
     "type": "progress",
-    "status": "In Progress",
-    "title": "Real-Time Token Exchange via Interactive MIMO for Agentic Latent Communication"
+    "status": "Submitted",
+    "title": "Robust Joint Beamforming and Configuration Design in FARIS-Aided Systems",
+    "paper_url": "https://arxiv.org/abs/2608.27835",
+    "preprint": true,
+    "authors": "H.-B. Jeon, Y. Kim, H.-J. Moon, and K.-K. Wong",
+    "citation": "submitted."
+  },
+  {
+    "id": "manuscript-8",
+    "year": 2026,
+    "type": "progress",
+    "status": "Submitted",
+    "title": "Enabling Secure Wireless Communications for FARIS-Aided Systems",
+    "paper_url": "https://arxiv.org/abs/2608.27837",
+    "preprint": true,
+    "authors": "H.-B. Jeon, Y. Kim, H.-J. Moon, and K.-K. Wong",
+    "citation": "submitted."
   },
   {
     "id": "202601jsac",
