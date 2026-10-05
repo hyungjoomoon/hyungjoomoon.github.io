@@ -6,7 +6,7 @@ permalink: /members/
 <section class="page-intro container">
   <p class="eyebrow">WAISL · DGIST</p>
   <h1>Members</h1>
-  <p>Lab members and future student researchers at the Wireless AI Systems Lab, DGIST.</p>
+  <p>Lab members and future student researchers at the Wireless AI Systems Lab, DGIST EECS.</p>
 </section>
 <section class="container people-section" aria-label="Lab members">
   <div class="member-list">
@@ -21,7 +21,7 @@ permalink: /members/
         <p class="eyebrow">{{ member.role | upcase }}</p>
         <h2>{{ member.name | escape }}</h2>
         <p class="member-degree">{{ member.degree | escape }}</p>
-        <p class="member-interest"><span>Research interest:</span> {{ member.research_interest | escape }}</p>
+        {% if member.research_interest %}<p class="member-interest"><span>Research interest:</span> {{ member.research_interest | escape }}</p>{% endif %}
       </div>
     </article>
     {% endfor %}

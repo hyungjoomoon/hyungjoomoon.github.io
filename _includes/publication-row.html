@@ -1,5 +1,6 @@
-<article class="publication-row" data-publication data-type="{{ include.pub.type }}" data-preprint="{{ include.pub.preprint | default: false }}" data-year="{{ include.pub.year }}">
-  <div class="publication-meta"><span class="mono">{{ include.pub.year }}</span><span class="pub-kind {% if include.pub.type == 'progress' %}pub-pending{% endif %}">{% if include.pub.type == 'progress' %}{{ include.pub.status }}{% elsif include.pub.type == 'conference' %}Conference{% else %}Journal{% endif %}</span></div>
+{% if include.pub.type == 'progress' %}{% assign publication_year = site.time | date: '%Y' %}{% else %}{% assign publication_year = include.pub.year %}{% endif %}
+<article class="publication-row" data-publication data-type="{{ include.pub.type }}" data-preprint="{{ include.pub.preprint | default: false }}" data-year="{{ publication_year }}">
+  <div class="publication-meta"><span class="mono" data-publication-year>{{ publication_year }}</span><span class="pub-kind {% if include.pub.type == 'progress' %}pub-pending{% endif %}">{% if include.pub.type == 'progress' %}{{ include.pub.status }}{% elsif include.pub.type == 'conference' %}Conference{% else %}Journal{% endif %}</span></div>
   <div class="publication-content">
     <h3>{% if include.pub.paper_url %}<a href="{{ include.pub.paper_url | escape }}" target="_blank" rel="noopener noreferrer">{{ include.pub.title | escape }}</a>{% else %}{{ include.pub.title | escape }}{% endif %}</h3>
     {% if include.pub.authors %}<p class="publication-authors">{{ include.pub.authors | escape | replace: 'H.-J. Moon', '<strong>H.-J. Moon</strong>' }}</p>{% endif %}

@@ -27,12 +27,21 @@
   menu?.addEventListener('click', (event) => { if (event.target.closest('a')) closeMenu(); });
   matchMedia('(min-width: 721px)').addEventListener('change', closeMenu);
 
+  // Keep unfinished manuscripts in the current DGIST calendar year, even without a rebuild.
+  const currentYear = new Intl.DateTimeFormat('en', { year: 'numeric', timeZone: 'Asia/Seoul' }).format(new Date());
+  document.querySelectorAll('[data-publication][data-type="progress"]').forEach((row) => {
+    row.dataset.year = currentYear;
+    row.querySelector('[data-publication-year]').textContent = currentYear;
+  });
+
   const publications = document.querySelector('[data-publications]');
   if (publications) {
     const buttons = [...publications.querySelectorAll('[data-pub-filter]')];
     const rows = [...publications.querySelectorAll('[data-publication]')];
     const query = document.getElementById('publication-query');
     const year = document.getElementById('publication-year');
+    const years = [...new Set(rows.map((row) => row.dataset.year))].sort((a, b) => Number(b) - Number(a));
+    year.replaceChildren(new Option('All years', 'all'), ...years.map((value) => new Option(value, value)));
     const count = document.getElementById('publication-count');
     const empty = document.getElementById('no-publications');
     const searchParams = new URLSearchParams(location.search);

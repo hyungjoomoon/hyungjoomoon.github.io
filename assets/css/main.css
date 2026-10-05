@@ -2579,79 +2579,16 @@ html:not(.js-enabled) .field-control {
   }
 }
 
-/* Academic introduction: PI information precedes the lab overview. */
-.home-profile {
-  display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
-  align-items: center;
-  gap: 56px;
-  padding-block: 56px;
-}
-.home-portrait {
-  display: block;
-  border: 1px solid var(--line);
-  border-radius: 3px;
-  overflow: hidden;
-  background: #fff;
-}
-.home-portrait img {
-  width: 100%;
-  height: auto;
-}
-.home-profile-copy {
-  max-width: 800px;
-}
-.home-profile-copy .eyebrow {
-  margin-bottom: 14px;
-}
-.home-profile-copy h1 {
-  font-size: clamp(32px, 3.2vw, 42px);
-  letter-spacing: -.035em;
-  line-height: 1.2;
-}
-.name-degree {
-  font-size: .6em;
-  font-weight: 400;
-  color: var(--muted);
-  letter-spacing: -.015em;
-  white-space: nowrap;
-}
-.home-profile-affiliation {
-  color: var(--blue);
-  font-size: 16px;
-  margin-top: 13px;
-  font-weight: 400;
-}
-.home-profile-copy > p:not(.eyebrow):not(.home-profile-affiliation) {
-  color: var(--muted);
-  font-size: 16px;
-  line-height: 1.8;
-  margin-top: 17px;
-}
-.home-profile-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 27px;
-  margin-top: 23px;
-  font-size: 14px;
-  font-weight: 400;
-}
-.home-profile-links a {
-  overflow-wrap: anywhere;
-}
-.home-profile-links a span {
-  color: var(--blue);
-  margin-left: 6px;
-}
+/* Lab introduction and research overview. */
 .lab-overview {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   align-items: center;
   padding-block: 38px;
-  border-block: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
-.lab-overview-copy h2 {
+.lab-overview-copy h1 {
   font-size: 33px;
   line-height: 1.25;
   letter-spacing: -.035em;
@@ -2794,11 +2731,6 @@ html:not(.js-enabled) .field-control {
   font-size: 44px;
 }
 @media (max-width: 1100px) {
-  .home-profile {
-    grid-template-columns: 210px minmax(0, 1fr);
-    gap: 38px;
-    padding-block: 44px;
-  }
   .lab-overview {
     gap: 35px;
   }
@@ -2814,17 +2746,7 @@ html:not(.js-enabled) .field-control {
   }
 }
 @media (max-width: 800px) {
-  .home-profile {
-    grid-template-columns: 180px minmax(0, 1fr);
-    gap: 30px;
-  }
-  .home-profile-copy h1 {
-    font-size: 32px;
-  }
-  .home-profile-copy > p:not(.eyebrow):not(.home-profile-affiliation) {
-    font-size: 15px;
-  }
-  .lab-overview-copy h2 {
+  .lab-overview-copy h1 {
     font-size: 29px;
   }
   .page-intro h1 {
@@ -2835,26 +2757,6 @@ html:not(.js-enabled) .field-control {
   }
 }
 @media (max-width: 720px) {
-  .home-profile {
-    grid-template-columns: 1fr;
-    gap: 27px;
-    padding-block: 34px;
-  }
-  .home-portrait {
-    width: 190px;
-  }
-  .home-profile-copy h1 {
-    font-size: clamp(27px, 7vw, 36px);
-  }
-  .home-profile-affiliation {
-    font-size: 15px;
-  }
-  .home-profile-copy > p:not(.eyebrow):not(.home-profile-affiliation) {
-    font-size: 16px;
-  }
-  .home-profile-links {
-    gap: 12px 22px;
-  }
   .lab-overview {
     grid-template-columns: 1fr;
     gap: 27px;

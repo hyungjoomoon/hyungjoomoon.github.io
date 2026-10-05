@@ -1,27 +1,26 @@
 [
   {
     "id": "manuscript-6",
-    "year": 2026,
     "type": "progress",
     "status": "Submitted",
     "title": "Learning an Interactive FDD MIMO Interface for Real-Time Agentic Latent Communication",
     "authors": "H.-J. Moon",
-    "citation": "submitted."
+    "citation": "submitted.",
+    "featured": true
   },
   {
     "id": "manuscript-1",
-    "year": 2026,
     "type": "progress",
     "status": "Under revision",
     "title": "Channel2World: A Wireless Foundation Model for RF Environment Representation",
     "paper_url": "https://arxiv.org/abs/2608.17544",
     "preprint": true,
     "authors": "H.-J. Moon, J. Jang, K. S. Kim, S.-L. Kim, R. W. Heath Jr., and C.-B. Chae",
-    "citation": "under revision."
+    "citation": "under revision.",
+    "featured": true
   },
   {
     "id": "manuscript-2",
-    "year": 2026,
     "type": "progress",
     "status": "Under revision",
     "title": "Learning-Based Predictive Phase Alignment and RU Scheduling for Distributed MIMO: Algorithms and Prototype Validation",
@@ -30,7 +29,6 @@
   },
   {
     "id": "manuscript-3",
-    "year": 2026,
     "type": "progress",
     "status": "Submitted",
     "title": "Phase-Coherent Wireless Digital Twin Calibration: CRLB Analysis and Prototype Validation",
@@ -39,7 +37,6 @@
   },
   {
     "id": "manuscript-4",
-    "year": 2026,
     "type": "progress",
     "status": "Submitted",
     "title": "Toward Quantum-Enhanced ISAC: Active-RIS-Aided Integrated Sensing and Communication with Rydberg Atomic Receivers",
@@ -48,7 +45,6 @@
   },
   {
     "id": "manuscript-5",
-    "year": 2026,
     "type": "progress",
     "status": "Under revision",
     "title": "Geometry-Aware DRL for Multi-Subband Scheduling in Satellite-Assisted UAM Networks",
@@ -59,7 +55,6 @@
   },
   {
     "id": "manuscript-7",
-    "year": 2026,
     "type": "progress",
     "status": "Submitted",
     "title": "Robust Joint Beamforming and Configuration Design in FARIS-Aided Systems",
@@ -70,7 +65,6 @@
   },
   {
     "id": "manuscript-8",
-    "year": 2026,
     "type": "progress",
     "status": "Submitted",
     "title": "Enabling Secure Wireless Communications for FARIS-Aided Systems",
@@ -97,7 +91,6 @@
       "MIMO"
     ],
     "abstract": "Efficient channel estimation and beamforming in the upper mid-band spectrum pose a fundamental challenge for 6G base stations (BSs). This requires practical beam management techniques that account for the propagation characteristics of this frequency range and the increasing number of BS antennas. To address the channel estimation bottleneck in Frequency Division Duplex (FDD) systems, this paper proposes an integrated framework combining channel synthesis and AI-based beam management. We first introduce partial statistical reciprocity (PSR) by extending the concept of partial reciprocity into the statistical domain, enabling a novel model-based online channel synthesis method. The proposed approach uses uplink channel parameters collected during BS operation to generate synthetic downlink channels that reflect the spatial distribution of active user equipment (UE), enabling the creation of high-quality, site-specific datasets for AI training. Furthermore, we propose a joint optimization framework for scalable codebook design and downlink channel estimation. A U-Net Transformer model is trained to estimate full beam-domain channel state information (CSI) using a single snapshot of uplink CSI and feedback from codebook-based beam sweeping. The model iteratively updates the codebook via backpropagation to align with current UE distributions and channel conditions, while channel estimation is performed through forward inference. The proposed AI-based framework achieves accurate channel reconstruction with minimal feedback, offering a scalable and practical solution for 6G spatial multiple access in the upper mid-band FDD system.",
-    "featured": true,
     "venue_short": "IEEE JSAC"
   },
   {
@@ -120,7 +113,6 @@
       "AIML"
     ],
     "abstract": "In this paper, we propose Massive Aerial Processing for $X$ (MAP-$X$), an innovative framework for reconstructing spatially correlated ground information, where $X$ represents arbitrary types of geographically referenced sensing data. MAP-$X$ leverages distributed sensors and a high altitude platform (HAP) equipped with a planar antenna array that captures radio frequency signals transmitted simultaneously from ground sensors. MAP-$X$ incorporates two key techniques that provide significant advantages over conventional terrestrial wireless sensor network (WSN)-based methods. First, MAP-$X$ enables all sensors to transmit concurrently within a single subframe, resulting in the random superposition of signals at the receiver. This non-orthogonal transmission approach enhances estimation accuracy as the number of devices increases, addressing the limitations of restricted orthogonal channel availability. Second, MAP-$X$ introduces a novel waveform design that enhances angular resolution at the receiver. Combined with linear and machine learning (ML)-based post-processing techniques implemented at the HAP, this approach significantly improves the accuracy of field-data reconstruction. This paper details the signal model, waveform design, and efficient post-processing techniques underlying MAP-$X$. Simulation results demonstrate that our framework surpasses the upper bound performance of orthogonal data collection combined with optimal covariance-based signal reconstruction, achieving superior latency reduction and estimation accuracy.",
-    "featured": true,
     "venue_short": "IEEE TWC"
   },
   {
