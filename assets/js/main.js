@@ -56,7 +56,10 @@
     };
     buttons.forEach((button) => button.addEventListener('click', () => { type = button.dataset.pubFilter; update(); }));
     query.addEventListener('input', update);
-    year.addEventListener('change', update);
+    year.addEventListener('change', () => {
+      type = 'all';
+      update();
+    });
     document.getElementById('reset-publications').addEventListener('click', () => {
       type = 'all'; query.value = ''; year.value = 'all'; update(); query.focus();
     });
