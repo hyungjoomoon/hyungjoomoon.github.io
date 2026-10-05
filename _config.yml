@@ -4,6 +4,7 @@ description: Wireless AI Systems Lab at DGIST. Research in AI-native wireless, l
 url: "https://hyungjoomoon.github.io"
 baseurl: ""
 timezone: Asia/Seoul
+google_analytics: G-L7CFHM61J9
 markdown: kramdown
 email: moonhj@dgist.ac.kr
 pi_portrait: /assets/img/hyung-joo-moon-2026.jpg

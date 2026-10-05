@@ -11,6 +11,8 @@ bundle exec jekyll serve --host 127.0.0.1
 
 Open http://127.0.0.1:4000. Build with `bundle exec jekyll build`.
 
+Google Analytics uses the existing GA4 measurement ID in `_config.yml` (`google_analytics`). The shared layout loads the [Google tag](https://developers.google.com/tag-platform/gtagjs) only in production builds, so normal local previews do not record visits. Build production output with `JEKYLL_ENV=production bundle exec jekyll build`; GitHub Pages uses the production environment.
+
 ## Content
 
 - `_data/publications.json`: publication records, authors, citations, statuses, and links. `venue_short` supplies compact journal names in research-area related work. `featured: true` selects homepage papers. `preprint: true` adds a paper to the Preprints filter independently of its submission status; `paper_url` supplies its direct link.
