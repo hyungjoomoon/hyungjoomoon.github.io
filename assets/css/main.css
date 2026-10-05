@@ -2977,7 +2977,10 @@ html:not(.js-enabled) .field-control {
   }
 }
 
-/* Compact typography in the complete publication list. */
+/* Compact spacing and typography in the complete publication list. */
+.publications-section .publication-row {
+  padding-block: 16px;
+}
 .publications-section .publication-content h3 {
   font-size: 19px;
 }
@@ -2990,6 +2993,9 @@ html:not(.js-enabled) .field-control {
   font-size: 12px;
 }
 @media (max-width: 720px) {
+  .publications-section .publication-row {
+    padding-block: 14px;
+  }
   .publications-section .publication-content h3 {
     font-size: 17px;
   }
