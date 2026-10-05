@@ -20,7 +20,7 @@ permalink: /members/
       <div class="member-info">
         <p class="eyebrow">{{ member.role | upcase }}</p>
         <h2>{{ member.name | escape }}</h2>
-        <p class="member-degree">{{ member.degree | escape }}</p>
+        <p class="member-degree">{{ member.position | default: member.degree | escape }}</p>
         {% if member.research_interest %}<p class="member-interest"><span>Research interest:</span> {{ member.research_interest | escape }}</p>{% endif %}
       </div>
     </article>
