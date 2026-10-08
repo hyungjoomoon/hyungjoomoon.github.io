@@ -19,7 +19,7 @@
   --muted:#4b515b;
   --blue:#2159de;
   --deep-blue:#12358c;
-  --line:#e0e5eb;
+  --line:#cdd5df;
   --wash:#f5f7fa;
   --pale:#edf3ff;
   --mono:'Geist Mono',monospace;
@@ -293,7 +293,7 @@ h2 {
   gap:30px;
   align-items:center;
   color:var(--blue);
-  border:1px solid #c9d7f9;
+  border:1px solid #b8c9ee;
   padding:10px 17px;
   margin-left:6px;
   border-radius:3px;
@@ -433,7 +433,7 @@ h2 {
   position:relative;
   overflow:hidden;
   background:radial-gradient(ellipse at 56% 54%,#e2ebff 0%,#f0f5ff 48%,#f7f9fd 80%);
-  border:1px solid #e7edf7;
+  border:1px solid #d5dfed;
   border-radius:3px;
 }
 
@@ -518,7 +518,7 @@ h2 {
   letter-spacing:.025em;
   padding:7px 9px;
   background:#ffffffc4;
-  border:1px solid #dbe5fa;
+  border:1px solid #c8d7f2;
   border-radius:2px;
 }
 
@@ -640,7 +640,7 @@ h2 {
 }
 
 .research-tags span {
-  border:1px solid #e1e7f0;
+  border:1px solid #d0d9e6;
   background:#f8faff;
   border-radius:3px;
   color:#4f5969;
@@ -818,7 +818,7 @@ h2 {
   font-size:13px;
   padding:2px 7px;
   color:var(--blue);
-  border:1px solid #d6e2fa;
+  border:1px solid #c4d4f1;
   border-radius:2px;
   background:#eef3fc;
 }
@@ -1271,7 +1271,7 @@ h2 {
 }
 
 .future-member {
-  border:1px dashed #c5d0e2;
+  border:1px dashed #b7c4d8;
   border-radius:3px;
   padding:34px;
   background:#fafbfe;
