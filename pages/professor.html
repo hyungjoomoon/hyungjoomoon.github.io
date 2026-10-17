@@ -15,7 +15,8 @@ description: Hyung-Joo Moon, Assistant Professor at DGIST EECS and principal inv
     <p class="eyebrow">{{ professor.role | upcase }}</p>
     <h2 id="professor-name">{{ professor.name | escape }}</h2>
     <p class="professor-affiliation">{{ professor.position }} · {{ professor.affiliation }}</p>
-    <p class="professor-biography">{{ professor.biography | escape }}</p>
+    {% capture advisor_link %}<a class="professor-name-link" href="https://cbchae.org">Prof. Chan-Byoung Chae</a>{% endcapture %}
+    <p class="professor-biography">{{ professor.biography | escape | replace: 'Prof. Chan-Byoung Chae', advisor_link }}</p>
     <div class="professor-links">
       <a href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
       <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
