@@ -2878,7 +2878,7 @@ html:not(.js-enabled) .field-control {
   display: grid;
   grid-template-columns: 85px minmax(0, 1fr);
   gap: 20px;
-  padding-block: 14px;
+  padding-block: 10px;
   border-top: 1px solid var(--line);
 }
 .professor-record dt {
