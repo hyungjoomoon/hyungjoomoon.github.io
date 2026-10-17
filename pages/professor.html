@@ -1,0 +1,40 @@
+---
+title: Professor
+section: professor
+permalink: /professor/
+description: Hyung-Joo Moon, Professor at DGIST EECS and principal investigator of the Wireless AI Systems Lab.
+---
+{% assign professor = site.data.professor %}
+<section class="page-intro container">
+  <p class="eyebrow">WAISL · DGIST EECS</p>
+  <h1>Professor</h1>
+</section>
+<section class="professor-profile container" aria-labelledby="professor-name">
+  <img class="professor-portrait" src="{{ site.pi_portrait | relative_url }}" width="827" height="1063" alt="{{ professor.name | escape }}">
+  <div class="professor-copy">
+    <p class="eyebrow">{{ professor.role | upcase }}</p>
+    <h2 id="professor-name">{{ professor.name | escape }}</h2>
+    <p class="professor-affiliation">{{ professor.position }} · {{ professor.affiliation }}</p>
+    <p class="professor-biography">{{ professor.biography | escape }}</p>
+    <div class="professor-links">
+      <a href="mailto:{{ site.email }}">{{ site.email }} <span aria-hidden="true">↗</span></a>
+      <a href="{{ site.scholar }}" target="_blank" rel="noopener noreferrer">Google Scholar <span aria-hidden="true">↗</span></a>
+    </div>
+    <section class="professor-background" aria-label="Career and education">
+      <dl class="professor-records">
+        {% for appointment in professor.appointments %}
+        <div class="professor-record">
+          <dt class="mono">{{ appointment.period }}</dt>
+          <dd><p class="professor-record-title">{{ appointment.title }} · {{ appointment.institution }}</p>{% if appointment.detail %}<p>{{ appointment.detail }}</p>{% endif %}</dd>
+        </div>
+        {% endfor %}
+        {% for education in professor.education %}
+        <div class="professor-record">
+          <dt class="mono">{{ education.period }}</dt>
+          <dd><p class="professor-record-title">{{ education.degree }} · {{ education.institution }}</p><p>{{ education.detail }}</p></dd>
+        </div>
+        {% endfor %}
+      </dl>
+    </section>
+  </div>
+</section>

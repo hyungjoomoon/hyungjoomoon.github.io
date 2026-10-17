@@ -1,0 +1,18 @@
+name: Hyung-Joo Moon
+position: Professor
+affiliation: DGIST EECS
+role: Principal investigator
+biography: I lead the Wireless AI Systems Lab at DGIST. My research combines wireless communications, machine learning, and real-world prototyping, with a focus on AI-native wireless systems, latent communications for edge intelligence, and wireless digital twins.
+appointments:
+  - period: "2026–"
+    title: Professor
+    institution: DGIST EECS
+    detail: Principal investigator, Wireless AI Systems Lab
+  - period: "2024–2025"
+    title: Visiting Researcher
+    institution: UC San Diego (UCSD)
+education:
+  - period: "2019–2026"
+    degree: PhD
+    institution: Yonsei University
+    detail: "Advisor: Prof. Chan-Byoung Chae"
