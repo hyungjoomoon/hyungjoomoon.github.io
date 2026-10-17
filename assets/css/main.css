@@ -2606,6 +2606,17 @@ html:not(.js-enabled) .field-control {
   color: var(--blue);
   margin-top: 23px;
 }
+.professor-name-link {
+  white-space: nowrap;
+  text-decoration: underline;
+  text-decoration-color: var(--line);
+  text-decoration-thickness: 1px;
+  text-underline-offset: .2em;
+}
+.professor-name-link:hover,
+.professor-name-link:focus-visible {
+  text-decoration-color: var(--blue);
+}
 .lab-overview .hero-field {
   height: 325px;
   aspect-ratio: auto;
@@ -2801,7 +2812,7 @@ html:not(.js-enabled) .field-control {
 /* Research statement and professor introduction. */
 .page-intro > p.research-statement {
   max-width: 1040px;
-  font-size: clamp(26px, 2.9vw, 36px);
+  font-size: clamp(24px, 2.7vw, 34px);
   font-weight: 500;
   line-height: 1.25;
   letter-spacing: -.035em;
@@ -2867,7 +2878,7 @@ html:not(.js-enabled) .field-control {
   display: grid;
   grid-template-columns: 85px minmax(0, 1fr);
   gap: 20px;
-  padding-block: 18px;
+  padding-block: 14px;
   border-top: 1px solid var(--line);
 }
 .professor-record dt {
@@ -2879,9 +2890,6 @@ html:not(.js-enabled) .field-control {
   margin: 0;
   font-size: 15px;
   color: var(--muted);
-}
-.professor-record dd p + p {
-  margin-top: 5px;
 }
 .professor-record-title {
   color: var(--ink);
@@ -3003,22 +3011,22 @@ html:not(.js-enabled) .field-control {
 
 /* Compact spacing and typography in the complete publication list. */
 .publications-section .publication-row {
-  padding-block: 16px;
+  padding-block: 13px;
 }
 .publications-section .publication-content h3 {
   font-size: 19px;
 }
 .publications-section .publication-authors,
 .publications-section .publication-venue {
-  font-size: clamp(14px, calc(1.4vw - 1px), 15px);
+  font-size: clamp(13.5px, calc(1.4vw - 1.5px), 14.5px);
   line-height: 1.55;
 }
 .publications-section .pub-kind {
-  font-size: 12px;
+  font-size: 11.5px;
 }
 @media (max-width: 720px) {
   .publications-section .publication-row {
-    padding-block: 14px;
+    padding-block: 12px;
   }
   .publications-section .publication-content h3 {
     font-size: 17px;

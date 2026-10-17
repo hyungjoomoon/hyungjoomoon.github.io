@@ -25,13 +25,13 @@ description: Hyung-Joo Moon, Professor at DGIST EECS and principal investigator 
         {% for appointment in professor.appointments %}
         <div class="professor-record">
           <dt class="mono">{{ appointment.period }}</dt>
-          <dd><p class="professor-record-title">{{ appointment.title }} · {{ appointment.institution }}</p>{% if appointment.detail %}<p>{{ appointment.detail }}</p>{% endif %}</dd>
+          <dd><p class="professor-record-title">{{ appointment.title }} · {{ appointment.institution }}</p></dd>
         </div>
         {% endfor %}
         {% for education in professor.education %}
         <div class="professor-record">
           <dt class="mono">{{ education.period }}</dt>
-          <dd><p class="professor-record-title">{{ education.degree }} · {{ education.institution }}</p><p>{{ education.detail }}</p></dd>
+          <dd><p class="professor-record-title">{{ education.degree }} · {{ education.institution }}</p></dd>
         </div>
         {% endfor %}
       </dl>

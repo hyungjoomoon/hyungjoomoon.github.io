@@ -18,10 +18,10 @@
   publications: [manuscript-6]
 - id: digital-twins
   number: "03"
-  title: Wireless digital twins
-  subtitle: RF environment modeling and physical-system calibration.
-  description: RF environment representations and calibrated digital models for learning and evaluating wireless systems.
-  detail: Our research investigates RF environment representations and phase-coherent digital twin calibration. We combine channel modeling, foundation models, theoretical analysis, and prototype validation to connect simulation with physical wireless systems. These representations also support site-specific learning and evaluation of wireless algorithms.
+  title: Wireless sensing and digital twins
+  subtitle: Wireless sensing, RF environment representation, and calibration.
+  description: Wireless sensing and RF environment representations, with calibrated digital models for learning and evaluating wireless systems.
+  detail: Our research investigates wireless sensing, RF environment representations, and phase-coherent digital twin calibration. We combine channel modeling, foundation models, theoretical analysis, and prototype validation to connect simulation with physical wireless systems. These representations also support site-specific learning and evaluation of wireless algorithms.
   tags: [Wireless Foundation Model, Channel modeling, Prototypes]
   visual: twin
   publications: [manuscript-1, manuscript-3]
